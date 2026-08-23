@@ -1,0 +1,9 @@
+{
+  "title": "Modern 3D point cloud classification",
+  "date": "2023-08-18",
+  "tags": [
+    "software"
+  ],
+  "excerpt": "MLP, graph, convolution and transformer families for unstructured 3D points.",
+  "image": "cover.png"
+}

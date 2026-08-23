@@ -1,0 +1,11 @@
+{
+  "title": "New paper on a multi-sensor benchmark dataset",
+  "date": "2023-12-19",
+  "tags": [
+    "paper",
+    "dataset"
+  ],
+  "excerpt": "An open hyperspectral benchmark with VNIR, SWIR and LWIR attributes of unstructured 3D surfaces.",
+  "doi": "10.1109/TGRS.2023.3340293",
+  "image": "cover.jpeg"
+}

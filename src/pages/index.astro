@@ -1,0 +1,133 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { assetUrl, loadIndex, formatDate, page } from '../lib/content';
+
+const site = loadIndex();
+const home = page('home');
+const featured = site.posts[0];
+const morePosts = site.posts.slice(1, 4);
+const research = site.research.slice(0, 6);
+const projects = site.projects.slice(0, 6);
+const people = site.people.slice(0, 8);
+const base = import.meta.env.BASE_URL;
+---
+<Layout title="">
+  <section class="story">
+    <div class="story-photo">
+      {home?.image ? (
+        <img src={assetUrl('pages', 'home', home.image)} alt="" />
+      ) : null}
+    </div>
+    <div class="story-copy">
+      <h1>{home?.title || 'Innovative Exploration'}</h1>
+      <p>
+        {home?.lede || 'We develop new technologies and workflows for the fast, non-invasive and economic exploration of mineral resources.'}
+      </p>
+    </div>
+  </section>
+
+  {featured ? (
+    <section class="section" id="from-the-blog">
+      <div class="wrap">
+        <div class="head">
+          <h2>From the blog</h2>
+          <a class="more" href={`${base}blog/`}>All posts <span>→</span></a>
+        </div>
+        <div class="lead-grid">
+          <a class="card lead" href={`${base}blog/${featured.slug}/`}>
+            <div class="pic">
+              {featured.image ? <img src={assetUrl('posts', featured.slug, featured.image)} alt="" /> : <div class="ph" />}
+            </div>
+            <div class="pad">
+              <p class="tag">{formatDate(featured.date)}</p>
+              <h3>{featured.title}</h3>
+              {featured.excerpt ? <p class="meta">{featured.excerpt}</p> : null}
+            </div>
+          </a>
+          <div class="stack">
+            {morePosts.map((post) => (
+              <a class="card story-card" href={`${base}blog/${post.slug}/`}>
+                <div class="pic">
+                  {post.image ? <img src={assetUrl('posts', post.slug, post.image)} alt="" /> : <div class="ph" />}
+                </div>
+                <div class="pad">
+                  <p class="tag">{formatDate(post.date)}</p>
+                  <h3>{post.title}</h3>
+                  {post.excerpt ? <p class="meta">{post.excerpt}</p> : null}
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  ) : null}
+
+  <section class="section" id="research">
+    <div class="wrap">
+      <div class="head">
+        <h2>Research</h2>
+        <a class="more" href={`${base}research/`}>All topics <span>→</span></a>
+      </div>
+      <div class="grid">
+        {research.map((topic) => (
+          <a class="card" href={`${base}research/${topic.slug}/`}>
+            <div class="pic">
+              {topic.image ? <img src={assetUrl('research', topic.slug, topic.image)} alt="" /> : <div class="ph" />}
+            </div>
+            <div class="pad">
+              <p class="tag">Research</p>
+              <h3>{topic.title}</h3>
+              {topic.subtitle ? <p class="meta">{topic.subtitle}</p> : null}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="head">
+        <h2>Projects</h2>
+        <a class="more" href={`${base}projects/`}>All projects <span>→</span></a>
+      </div>
+      <div class="grid">
+        {projects.map((project) => (
+          <a class="card" href={`${base}projects/${project.slug}/`}>
+            <div class="pic">
+              {project.image ? <img src={assetUrl('projects', project.slug, project.image)} alt="" /> : <div class="ph" />}
+            </div>
+            <div class="pad">
+              <p class="tag">{project.years || 'Project'}</p>
+              <h3>{project.title}</h3>
+              {project.funding ? <p class="meta">{project.funding}</p> : null}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="people">
+    <div class="wrap">
+      <div class="head">
+        <h2>People</h2>
+        <a class="more" href={`${base}team/`}>The team <span>→</span></a>
+      </div>
+      <div class="people">
+        {people.map((person) => (
+          <a class="card" href={`${base}team/${person.slug}/`}>
+            <div class="pic">
+              {person.image ? <img src={assetUrl('people', person.slug, person.image)} alt="" /> : <div class="ph" />}
+            </div>
+            <div class="pad">
+              <h3>{person.title}</h3>
+              {person.role ? <p class="meta">{person.role}</p> : null}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

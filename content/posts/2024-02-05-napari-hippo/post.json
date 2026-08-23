@@ -1,0 +1,9 @@
+{
+  "title": "Introducing napari-hippo",
+  "date": "2024-02-05",
+  "tags": [
+    "software"
+  ],
+  "excerpt": "An open napari plugin for exploring and masking multi-cube hyperspectral data.",
+  "image": "cover.png"
+}

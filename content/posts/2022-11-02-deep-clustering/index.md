@@ -1,0 +1,1 @@
+The ever-growing variety of image data — hyperspectral imaging and lidar among them — motivates unsupervised fusion. MDC combines a spectral autoencoder, a spatial convolutional autoencoder and a fusion network, demonstrated on HSI plus lidar DSM at two benchmark sites.

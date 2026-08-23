@@ -1,0 +1,24 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { assetUrl, loadIndex, renderMarkdown } from '../../lib/content';
+
+export function getStaticPaths() {
+  return loadIndex().people.map((person) => ({ params: { slug: person.slug }, props: { person } }));
+}
+
+const { person } = Astro.props;
+---
+<Layout title={person.title} description={person.role || person.title}>
+  <div class="wrap page two-col" style="padding-top:2.5rem">
+    <article>
+      <p class="kicker">{person.role || 'Team'}</p>
+      <h1 class="page-title">{person.title}</h1>
+      <div class="prose" set:html={renderMarkdown(person.body)} />
+    </article>
+    {person.image ? (
+      <aside>
+        <img src={assetUrl('people', person.slug, person.image)} alt={person.title} />
+      </aside>
+    ) : null}
+  </div>
+</Layout>

@@ -1,0 +1,27 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { assetUrl, loadIndex } from '../../lib/content';
+
+const { research } = loadIndex();
+const base = import.meta.env.BASE_URL;
+---
+<Layout title="Research">
+  <div class="wrap page">
+    <h1 class="page-title">Our research topics</h1>
+    <p class="lede">Sensor integration, mineral mapping, autonomous platforms, geological modelling, remote monitoring, and machine learning for non-invasive resource characterisation.</p>
+    <div class="grid">
+      {research.map((topic) => (
+        <a class="card" href={`${base}research/${topic.slug}/`}>
+          <div class="pic">
+            {topic.image ? <img src={assetUrl('research', topic.slug, topic.image)} alt="" /> : <div class="ph" />}
+          </div>
+          <div class="pad">
+            <p class="tag">Topic</p>
+            <h3>{topic.title}</h3>
+            {topic.subtitle ? <p class="meta">{topic.subtitle}</p> : null}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

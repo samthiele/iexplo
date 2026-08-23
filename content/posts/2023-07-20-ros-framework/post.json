@@ -1,0 +1,10 @@
+{
+  "title": "ROS: an open-source framework for advanced robotics",
+  "date": "2023-07-20",
+  "tags": [
+    "software",
+    "uav"
+  ],
+  "excerpt": "ROS 1 versus ROS 2, and why greenfield swarm work should start on ROS 2.",
+  "image": "cover.jpg"
+}

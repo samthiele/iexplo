@@ -1,0 +1,1 @@
+At the Helmholtz Imaging Conference 2022, Sam Thiele’s “Spectral Detective” reached the top 20 and René Booysen’s “Finding rare earth from space” took 3rd Jury prize. The images joined a travelling exhibition and the 2023 calendar.

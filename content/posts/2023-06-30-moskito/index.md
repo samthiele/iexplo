@@ -1,0 +1,1 @@
+Moskito is a medium RPAS hexacopter with a maximum payload of 6 kg, spearheaded by Junaidh Shaik Fareedh with Yuleika Madriz and Richard Gloaguen. A magnetometer hangs from a foldable arm. Collaborations include Mohammed First University, Oujda, and IIT Gandhinagar.

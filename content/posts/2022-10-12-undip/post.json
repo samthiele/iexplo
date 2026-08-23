@@ -1,0 +1,10 @@
+{
+  "title": "UnDIP: hyperspectral unmixing using a deep image prior",
+  "date": "2022-10-12",
+  "tags": [
+    "paper",
+    "software"
+  ],
+  "excerpt": "SiVM endmembers plus a CNN deep-image-prior for abundances.",
+  "image": "cover.jpg"
+}

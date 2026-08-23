@@ -1,0 +1,74 @@
+name: Build index and deploy Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'public/index.json'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Compile content index
+        env:
+          CROSSREF_MAILTO: iexplo@hzdr.de
+        run: npm run index
+
+      - name: Store index.json in the repository
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/index.json
+          if git diff --staged --quiet; then
+            echo "index.json unchanged"
+          else
+            git commit -m "chore: update content index [skip ci]"
+            git push
+          fi
+
+      - name: Build site
+        env:
+          ASTRO_TELEMETRY_DISABLED: "1"
+        run: npx astro build
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: dist
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

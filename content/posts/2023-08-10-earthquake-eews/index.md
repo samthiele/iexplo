@@ -1,0 +1,1 @@
+Take a look at this survey on IoT-cloud-based earthquake early-warning systems, with Wilfried Yves Hamilton Adoni as co-author: [Early Detection of Earthquakes Using IoT and Cloud Infrastructure](https://encyclopedia.pub/entry/invitation/102851).

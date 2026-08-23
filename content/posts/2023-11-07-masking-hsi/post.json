@@ -1,0 +1,23 @@
+{
+  "title": "Towards a generalised processing of hyperspectral data — part 1",
+  "date": "2023-11-07",
+  "tags": [
+    "paper",
+    "software"
+  ],
+  "excerpt": "Masking hyperspectral cubes with SAM and Grounding DINO so only regions of interest remain.",
+  "doi": "10.48550/arXiv.2311.03053",
+  "authors": [
+    "Elias Arbash",
+    "Andréa de Lima Ribeiro",
+    "Sam Thiele",
+    "Nina Gnann",
+    "Behnood Rasti",
+    "Margret Fuchs",
+    "Pedram Ghamisi",
+    "Richard Gloaguen"
+  ],
+  "journal": "arXiv",
+  "year": 2023,
+  "image": "cover.png"
+}

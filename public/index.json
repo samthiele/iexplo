@@ -1,0 +1,2251 @@
+{
+  "generatedAt": "2026-08-23T15:25:21.568Z",
+  "posts": [
+    {
+      "slug": "2024-10-30-hyperspectral-drillcore",
+      "kind": "post",
+      "title": "Maximising the value of hyperspectral drill core scanning through real-time processing and analysis",
+      "date": "2024-10-30",
+      "excerpt": "Open-source real-time processing and analysis of hyperspectral drill-core data with crunchy and hycore.",
+      "tags": [
+        "paper",
+        "drillcore",
+        "software"
+      ],
+      "authors": [
+        "Samuel T. Thiele",
+        "Moritz Kirsch",
+        "Sandra Lorenz",
+        "Houda Saffi",
+        "Safia El Alami",
+        "Isabel Cecilia Contreras Acosta",
+        "Yuleika Madriz",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.3389/feart.2024.1433662",
+      "paper": {
+        "title": "Maximising the value of hyperspectral drill core scanning through real-time processing and analysis",
+        "authors": [
+          "Samuel T. Thiele",
+          "Moritz Kirsch",
+          "Sandra Lorenz",
+          "Houda Saffi",
+          "Safia El Alami",
+          "Isabel Cecilia Contreras Acosta",
+          "Yuleika Madriz",
+          "Richard Gloaguen"
+        ],
+        "journal": "Frontiers in Earth Science",
+        "year": 2024,
+        "date": "2024-10-30",
+        "doi": "10.3389/feart.2024.1433662",
+        "url": "https://doi.org/10.3389/feart.2024.1433662",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": true,
+      "body": "Check out our new paper on hyperspectral drillcore scanning. We present an open-source workflow for real-time processing and analysis of hyperspectral data, with a specific focus on mineral exploration through drill-core scanning.\n\nCurrent hyperspectral drillcore analysis methods typically involve a significant delay between data acquisition and analysis, which limits the value of these rich datasets in time-critical exploration decisions. To help address this, we have developed two software frameworks, **crunchy** and **hycore**. Crunchy facilitates real-time preprocessing, correction, and analysis of hyperspectral data, while hycore manages and stores the data in a consistent structure, enabling interactive visualisation, analysis, and mosaicing.\n\nWe demonstrate the framework using data from several sediment-hosted base-metal deposits. The real-time results enabled rapid identification of key minerals and informed sampling strategies. We conclude that such real-time data could greatly inform geological logging and help ensure maximum information is extracted from valuable drillcores, in a reproducible and objective way.\n\nRead the full article: [Frontiers in Earth Science](https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2024.1433662/full)",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-10-28-intelligent-swarm",
+      "kind": "post",
+      "title": "Intelligent Swarm: Concept, Design and Validation of Self-Organized UAVs Based on Leader–Followers Paradigm for Autonomous Mission Planning",
+      "date": "2024-10-28",
+      "excerpt": "A leader–followers swarm concept for self-organised UAV mission planning.",
+      "tags": [
+        "paper",
+        "uav",
+        "software"
+      ],
+      "authors": [
+        "Wilfried Yves Hamilton Adoni",
+        "Junaidh Shaik Fareedh",
+        "Sandra Lorenz",
+        "Richard Gloaguen",
+        "Yuleika Madriz",
+        "Aastha Singh",
+        "Thomas D. Kühne"
+      ],
+      "doi": "10.3390/drones8100575",
+      "paper": {
+        "title": "Intelligent Swarm: Concept, Design and Validation of Self-Organized UAVs Based on Leader–Followers Paradigm for Autonomous Mission Planning",
+        "authors": [
+          "Wilfried Yves Hamilton Adoni",
+          "Junaidh Shaik Fareedh",
+          "Sandra Lorenz",
+          "Richard Gloaguen",
+          "Yuleika Madriz",
+          "Aastha Singh",
+          "Thomas D. Kühne"
+        ],
+        "journal": "Drones",
+        "year": 2024,
+        "date": "2024-10-28",
+        "doi": "10.3390/drones8100575",
+        "url": "https://doi.org/10.3390/drones8100575",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": true,
+      "body": "A team of researchers from Helmholtz-Zentrum Dresden-Rossendorf has introduced a concept for autonomous aerial systems in the paper *Intelligent Swarm: Concept, Design and Validation of Self-Organized UAVs Based on Leader–Followers Paradigm for Autonomous Mission Planning*.\n\nThe study proposes a framework for organising UAV swarms through a central leader drone that guides follower drones. The approach is intended to improve coordination, situational adaptability, and robustness of the group under changing mission requirements.\n\nThe work was a collaboration between HZDR-CASUS and HZDR-HIF, with contributions from Richard Gloaguen, Sandra Lorenz, Thomas D. Kühne, Wilfried Hamilton, Junaidh Shaik Fareedh, Aastha Singh and Yuleika Madriz Diaz.\n\nFull paper: [Drones 8(10):575](https://www.mdpi.com/2504-446X/8/10/575)",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-10-28-ros-ide",
+      "kind": "post",
+      "title": "Integrated ROS development environment for UAV swarm programming",
+      "date": "2024-10-28",
+      "excerpt": "A Catkin-based IDE concept for building, simulating and deploying ROS/ROS2 UAV swarm software.",
+      "tags": [
+        "software",
+        "uav"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "If you are developing UAV swarms with ROS/ROS2 and Catkin, you need an efficient setup to streamline the process. This proposed IDE is meant to keep tightly knit components and development utilities in one place: simulating, compiling, testing, debugging and deployment on the swarm.\n\nThe kernel is based on the Catkin build system. It combines CMake macros with Python scripts to build ROS packages, and is configured to integrate the drivers and dependencies (gazebo-ros-pkgs, mavros and mavlink) needed for communication and mission execution both in Gazebo and on the aircraft. Compared with a traditional rosbuild workflow it aims to provide:\n\n1. automatic package detection and distribution, and the ability to build multiple interdependent apps in tandem\n2. cross-compilation so generated programs can run on various drone types\n\nThe AutoTarget repository collects this work: [github.com/hifexplo/autotarget](https://github.com/hifexplo/autotarget)",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-05-13-point-clouds",
+      "kind": "post",
+      "title": "An easy explanation of 3D point clouds and applications",
+      "date": "2024-05-13",
+      "excerpt": "What point clouds are, how they differ from LiDAR, and where they are used.",
+      "tags": [
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "A short FAQ on 3D point clouds: they store XYZ coordinates and often RGB (sometimes called “4D”). Advantages include precision, speed of acquisition, and straightforward visualisation.\n\nLiDAR measures geometry; photogrammetric point clouds usually add colour. Classification assigns semantic labels to regions, while segmentation isolates individual objects — the city versus the buildings. Applications include mapping, disaster risk, urban mobility, forest management, intelligent transport and DEM generation.\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)\n\n![Figure 2](fig-03.png)\n\n![Figure 3](fig-04.png)\n\n![Figure 4](fig-05.png)\n\n![Figure 5](fig-06.png)\n\n![Figure 6](fig-07.png)\n\n![Figure 7](fig-08.png)\n\n![Figure 8](fig-09.png)\n\n![Figure 9](fig-10.png)\n\n![Figure 10](fig-11.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png",
+        "fig-02.png",
+        "fig-03.png",
+        "fig-04.png",
+        "fig-05.png",
+        "fig-06.png",
+        "fig-07.png",
+        "fig-08.png",
+        "fig-09.png",
+        "fig-10.png",
+        "fig-11.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-03-26-autotarget-repo",
+      "kind": "post",
+      "title": "AutoTarget repository online",
+      "date": "2024-03-26",
+      "excerpt": "Open ROS software for a task-distributed drone network.",
+      "tags": [
+        "software",
+        "uav"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "The AutoTarget GitHub repository is online: a ROS-based, task-distributed drone network for characterising isolated remote targets.\n\n[github.com/hifexplo/autotarget](https://github.com/hifexplo/autotarget)",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-03-26-hyperuav-page",
+      "kind": "post",
+      "title": "New webpage for the HyperUAV project",
+      "date": "2024-03-26",
+      "excerpt": "A dedicated page for scaling hyperspectral UAV data to satellite extents.",
+      "tags": [
+        "uav"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "HyperUAV now has its own project page, covering scale effects, spectral mixing and generative enhancement of hyperspectral data from ground to satellite.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-02-05-napari-hippo",
+      "kind": "post",
+      "title": "Introducing napari-hippo",
+      "date": "2024-02-05",
+      "excerpt": "An open napari plugin for exploring and masking multi-cube hyperspectral data.",
+      "tags": [
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Sam Thiele.\n\n**napari-hippo** is an open-source Python GUI plugin for [napari](https://napari.org/) aimed at multi-cube hyperspectral imaging: coregistration, masking and interactive exploration. Commercial HSI tools are typically closed; existing open tools are limited. hippo is still under active development.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-02-01-battery-components",
+      "kind": "post",
+      "title": "Spectral Characterization of Battery Components from Li-Ion Battery Recycling Processes",
+      "date": "2024-02-01",
+      "excerpt": "Optical sensors for non-contact detection of Li-ion battery components in recycling streams.",
+      "tags": [
+        "paper",
+        "recycling"
+      ],
+      "authors": [
+        "Julia Richter",
+        "Sandra Lorenz",
+        "Alexandra Kaas",
+        "Margret Fuchs",
+        "Christian Röder",
+        "Urs A. Peuker",
+        "Johannes Heitmann",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.3390/met14020147",
+      "paper": {
+        "title": "Spectral Characterization of Battery Components from Li-Ion Battery Recycling Processes",
+        "authors": [
+          "Julia Richter",
+          "Sandra Lorenz",
+          "Alexandra Kaas",
+          "Margret Fuchs",
+          "Christian Röder",
+          "Urs A. Peuker",
+          "Johannes Heitmann",
+          "Richard Gloaguen"
+        ],
+        "journal": "Metals",
+        "year": 2024,
+        "date": "2024-02-01",
+        "doi": "10.3390/met14020147",
+        "url": "https://doi.org/10.3390/met14020147",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": true,
+      "body": "Excited to share a new paper on spectral characterisation of battery components from Li-ion battery recycling processes, led by Julia Richter. The work was a collaboration between TU Bergakademie Freiberg and the Helmholtz Institute Freiberg within the BMBF-funded project DIGISORT.\n\nAddressing the need for efficient recycling strategies amid rising demand for Li-ion batteries, the study uses optical sensors for non-contact, real-time monitoring of battery-component detection. Investigating millimetre-scale particles from end-of-life batteries with five reflectance sensors, we identified the visible to near-infrared range (400–1000 nm) as optimal for discriminating aluminium, copper and other battery components, and we provide practical recommendations for industry.\n\nFull article: [Metals 14(2):147](https://www.mdpi.com/2075-4701/14/2/147)",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-01-30-pcb-vision",
+      "kind": "post",
+      "title": "Towards a generalised processing of hyperspectral data — part 2",
+      "date": "2024-01-30",
+      "excerpt": "PCB-Vision: an open RGB–hyperspectral benchmark of printed circuit boards.",
+      "tags": [
+        "paper",
+        "dataset",
+        "software"
+      ],
+      "authors": [
+        "Elias Arbash"
+      ],
+      "doi": "10.14278/rodare.2704",
+      "paper": {
+        "title": "Towards a generalised processing of hyperspectral data — part 2",
+        "authors": [
+          "Elias Arbash"
+        ],
+        "journal": "Rodare / arXiv:2401.06528",
+        "year": null,
+        "date": "2024-01-30",
+        "doi": "10.14278/rodare.2704",
+        "url": "https://doi.org/10.14278/rodare.2704",
+        "type": "",
+        "source": "local"
+      },
+      "selected": false,
+      "body": "By Elias Arbash.\n\nPCB-Vision is a 53-scene RGB + VNIR dataset of printed circuit boards (Specim FX10 and Teledyne Dalsa C4020), with General and Monoseg ground-truth masks for ICs, capacitors, connectors and other classes. Baseline models include U-Net, Attention U-Net, Res U-Net, DeepLabv3+ and LinkNet on RGB, PCA and 128³ patches.\n\n- Paper: [arXiv:2401.06528](https://arxiv.org/pdf/2401.06528.pdf)\n- Data: [Rodare 2704](https://rodare.hzdr.de/record/2704)\n- Code: [github.com/hifexplo/PCBVision](https://github.com/hifexplo/PCBVision)\n\nFunded by RAMSES-4-CE and CirculAIre. Contact: e.arbash@hzdr.de.\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)\n\n![Figure 2](fig-03.png)\n\n![Figure 3](fig-04.png)\n\n![Figure 4](fig-05.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png",
+        "fig-04.png",
+        "fig-05.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2024-01-23-underground-li",
+      "kind": "post",
+      "title": "Underground hyperspectral outcrop scanning for automated mine‐face mapping: The lithium deposit of Zinnwald/Cínovec",
+      "date": "2024-01-23",
+      "excerpt": "A workflow for hyperspectral geological mapping in an underground mine, validated with LIBS.",
+      "tags": [
+        "paper",
+        "fieldtrip",
+        "outcrop"
+      ],
+      "authors": [
+        "Moritz Kirsch",
+        "Maria Mavroudi",
+        "Sam Thiele",
+        "Sandra Lorenz",
+        "Laura Tusa",
+        "René Booysen",
+        "Erik Herrmann",
+        "Ayoub Fatihi",
+        "Robert Möckel",
+        "Thomas Dittrich",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.1111/phor.12457",
+      "paper": {
+        "title": "Underground hyperspectral outcrop scanning for automated mine‐face mapping: The lithium deposit of Zinnwald/Cínovec",
+        "authors": [
+          "Moritz Kirsch",
+          "Maria Mavroudi",
+          "Sam Thiele",
+          "Sandra Lorenz",
+          "Laura Tusa",
+          "René Booysen",
+          "Erik Herrmann",
+          "Ayoub Fatihi",
+          "Robert Möckel",
+          "Thomas Dittrich",
+          "Richard Gloaguen"
+        ],
+        "journal": "The Photogrammetric Record",
+        "year": 2023,
+        "date": "2024-01-23",
+        "doi": "10.1111/phor.12457",
+        "url": "https://doi.org/10.1111/phor.12457",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": false,
+      "body": "In this study we propose a workflow for using hyperspectral imaging for geological mapping in underground mining. We evaluated sensors and lighting set-ups in the laboratory and acquired data in a German underground mine. The corrected data were used to map mineral abundance and estimate Li content, validated with laser-induced breakdown spectroscopy.\n\nDespite the challenges of underground illumination and geometry, the work aims to establish hyperspectral sensors in the extractive industry — to increase raw-material supply, advance digitalisation, and reduce environmental impact and mining risk.\n\nPaper: [The Photogrammetric Record](https://onlinelibrary.wiley.com/doi/10.1111/phor.12457)",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-12-19-multisensor-benchmark",
+      "kind": "post",
+      "title": "New paper on a multi-sensor benchmark dataset",
+      "date": "2023-12-19",
+      "excerpt": "An open hyperspectral benchmark with VNIR, SWIR and LWIR attributes of unstructured 3D surfaces.",
+      "tags": [
+        "paper",
+        "dataset"
+      ],
+      "authors": [
+        "Ahmed J. Afifi",
+        "Samuel T. Thiele",
+        "Aldino Rizaldy",
+        "Sandra Lorenz",
+        "Pedram Ghamisi",
+        "Raimon Tolosana-Delgado",
+        "Moritz Kirsch",
+        "Richard Gloaguen",
+        "Michael Heizmann"
+      ],
+      "doi": "10.1109/TGRS.2023.3340293",
+      "paper": {
+        "title": "New paper on a multi-sensor benchmark dataset",
+        "authors": [
+          "Ahmed J. Afifi",
+          "Samuel T. Thiele",
+          "Aldino Rizaldy",
+          "Sandra Lorenz",
+          "Pedram Ghamisi",
+          "Raimon Tolosana-Delgado",
+          "Moritz Kirsch",
+          "Richard Gloaguen",
+          "Michael Heizmann"
+        ],
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "year": 2024,
+        "date": "2023-12-19",
+        "doi": "10.1109/TGRS.2023.3340293",
+        "url": "https://doi.org/10.1109/tgrs.2023.3340293",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": false,
+      "body": "Excellent new contribution led by Ahmed J. Afifi in collaboration with Karlsruhe Institute of Technology (KIT) IIIT.\n\nWe want to boost 3D Earth-observation and image processing. The Earth is not flat — so let's deal with real data. It is time to move from 2D to 3D datasets.\n\nHere we provide a new hyperspectral benchmark dataset with VNIR, SWIR and LWIR attributes of very unstructured surfaces. Open-access paper, open-source codes and an open dataset.",
+      "images": [
+        "cover.jpeg"
+      ],
+      "image": "cover.jpeg"
+    },
+    {
+      "slug": "2023-11-09-egu-2024",
+      "kind": "post",
+      "title": "Conference session at EGU 2024",
+      "date": "2023-11-09",
+      "excerpt": "EGU session ERE4.2: advancing real-time resource exploration across scales.",
+      "tags": [
+        "fieldtrip"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "We are convening EGU 2024 session **ERE4.2 — Advancing real-time resource exploration across scales**. Conveners: Margret Fuchs, Yuleika Madriz, Moritz Kirsch, Sandra Lorenz and Sam Thiele.\n\nThemes include non-invasive data collection, real-time processing and sensor integration, and physics-, mathematics- and learning-based interpretation.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2023-11-07-masking-hsi",
+      "kind": "post",
+      "title": "Towards a generalised processing of hyperspectral data — part 1",
+      "date": "2023-11-07",
+      "excerpt": "Masking hyperspectral cubes with SAM and Grounding DINO so only regions of interest remain.",
+      "tags": [
+        "paper",
+        "software"
+      ],
+      "authors": [
+        "Elias Arbash",
+        "Andréa de Lima Ribeiro",
+        "Sam Thiele",
+        "Nina Gnann",
+        "Behnood Rasti",
+        "Margret Fuchs",
+        "Pedram Ghamisi",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.48550/arXiv.2311.03053",
+      "paper": {
+        "title": "Towards a generalised processing of hyperspectral data — part 1",
+        "authors": [
+          "Elias Arbash",
+          "Andréa de Lima Ribeiro",
+          "Sam Thiele",
+          "Nina Gnann",
+          "Behnood Rasti",
+          "Margret Fuchs",
+          "Pedram Ghamisi",
+          "Richard Gloaguen"
+        ],
+        "journal": "arXiv",
+        "year": 2023,
+        "date": "2023-11-07",
+        "doi": "10.48550/arXiv.2311.03053",
+        "url": "https://doi.org/10.48550/arXiv.2311.03053",
+        "type": "",
+        "source": "local"
+      },
+      "selected": false,
+      "body": "## Masking hyperspectral imaging data with pretrained models\n\nBy Elias Arbash. Preprint: [arXiv:2311.03053](https://arxiv.org/abs/2311.03053)\n\nIn hyperspectral data cubes, undesired background associated with noise and unknown spectral characteristics degrades subsequent processing. Masking out unwanted regions is key: processing only regions of interest improves compute cost, memory and performance.\n\nThe proposed pipeline generates a region-of-interest mask, then applies hyperspectral processing only on the masked cube. The novelty is the segmentation step. By deploying the Segment Anything model (SAM) with Grounding DINO, followed by intersection and exclusion filtering, undesired areas are removed without retraining or fine-tuning.\n\nOn a drill-core scan the method reached precision 0.97, recall 0.98 and F1 0.97 against a hand-made ground truth, and reduced the cube from 727,000 vectors to 280,584.\n\nPlease cite Arbash et al. (2023), *Masking Hyperspectral Imaging Data with Pretrained Models*, arXiv:2311.03053.\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)\n\n![Figure 2](fig-03.png)\n\n![Figure 3](fig-04.png)\n\n![Figure 4](fig-05.png)\n\n![Figure 5](fig-06.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png",
+        "fig-02.png",
+        "fig-03.png",
+        "fig-04.png",
+        "fig-05.png",
+        "fig-06.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2023-10-13-remote-sensing-geology",
+      "kind": "post",
+      "title": "Remote sensing geology",
+      "date": "2023-10-13",
+      "excerpt": "A concise encyclopaedia chapter on sensors, platforms, processing and geological applications of remote sensing.",
+      "tags": [
+        "paper"
+      ],
+      "authors": [
+        "René Booysen",
+        "Richard Gloaguen",
+        "Sandra Lorenz",
+        "Robert Zimmermann",
+        "Paul A. M. Nex"
+      ],
+      "doi": "",
+      "paper": {
+        "title": "Remote sensing geology",
+        "authors": [
+          "René Booysen",
+          "Richard Gloaguen",
+          "Sandra Lorenz",
+          "Robert Zimmermann",
+          "Paul A. M. Nex"
+        ],
+        "journal": "Encyclopedia of Geology, 2nd edition",
+        "year": 2021,
+        "date": "2023-10-13",
+        "doi": "",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/B978012409548912127X",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "A while ago, colleagues and I wrote a chapter in the *Encyclopedia of Geology* (2nd edition) on geological remote sensing.\n\nWe tried to give a brief but concise overview of the sensors used, the different platforms, the processing of the data and typical geological applications, plus a list of papers for further reading.\n\nBooysen, R., Gloaguen, R., Lorenz, S., Zimmermann, R., & Nex, P. A. M., 2021. Geological Remote Sensing. In: Alderton, D. & Elias, S. A. (eds.) *Encyclopedia of Geology*, 2nd edition, vol. 6, pp. 301–314. Academic Press.",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-10-04-google-earth-on-steroids",
+      "kind": "post",
+      "title": "Google Earth on steroids",
+      "date": "2023-10-04",
+      "excerpt": "Why hyperspectral satellites still lack a public, browseable Earth view.",
+      "tags": [
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Sam Thiele and Rupsa Chakraborty.\n\nRGB Google Earth is familiar; hyperspectral satellites (PRISMA, EnMAP, and the forthcoming NASA SBG) are not. We still lack a public “hyperspectral Google Earth” — noon, sun-synchronous cubes that machine learning could turn into mineralogy and vegetation maps at continental scale.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2023-09-27-tensor-decompositions",
+      "kind": "post",
+      "title": "Tensor decompositions for hyperspectral data processing",
+      "date": "2023-09-27",
+      "excerpt": "Tucker, CP and tensor-train methods for reducing, denoising and unmixing HSI cubes.",
+      "tags": [
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Samiran Das.\n\nA hyperspectral cube is naturally an order-3 tensor. Tucker, PARAFAC/CP, tensor-ring, tensor-train and t-SVD decompositions support dimensionality reduction, feature extraction, denoising and unmixing. Useful libraries include n-way, TensorLab, the MATLAB tensor toolbox and TensorLy.\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)",
+      "images": [
+        "cover.jpg",
+        "fig-01.png",
+        "fig-02.png"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-08-23-multisensor-fusion",
+      "kind": "post",
+      "title": "Multi-sensor data fusion using deep learning for bulky waste image classification",
+      "date": "2023-08-23",
+      "excerpt": "Early, intermediate and late fusion of RGB, NIR HSI, thermography and terahertz for bulky waste.",
+      "tags": [
+        "paper"
+      ],
+      "authors": [
+        "Manuel Bihler",
+        "Lukas Roming",
+        "Yifan Jiang",
+        "Ahmed J. Afifi",
+        "Jochen Aderhold",
+        "Dovile Cibiraite-Lukenskiene",
+        "Sandra Lorenz",
+        "Richard Gloaguen",
+        "Robin Gruna",
+        "Michael Heizmann"
+      ],
+      "doi": "10.1117/12.2673838",
+      "paper": {
+        "title": "Multi-sensor data fusion using deep learning for bulky waste image classification",
+        "authors": [
+          "Manuel Bihler",
+          "Lukas Roming",
+          "Yifan Jiang",
+          "Ahmed J. Afifi",
+          "Jochen Aderhold",
+          "Dovile Cibiraite-Lukenskiene",
+          "Sandra Lorenz",
+          "Richard Gloaguen",
+          "Robin Gruna",
+          "Michael Heizmann"
+        ],
+        "journal": "Automated Visual Inspection and Machine Vision V",
+        "year": 2023,
+        "date": "2023-08-23",
+        "doi": "10.1117/12.2673838",
+        "url": "https://doi.org/10.1117/12.2673838",
+        "type": "proceedings-article",
+        "source": "crossref"
+      },
+      "selected": false,
+      "body": "Multi-sensor data fusion using deep learning for bulky-waste image classification, led by Ahmed J. Afifi with colleagues at KIT and HIF.\n\nImages from RGB, hyperspectral NIR, thermography and terahertz of wood partly covered with metal are fused at early, intermediate and late stages. Late fusion reached an accuracy of 0.921.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2023-08-18-point-cloud-classification",
+      "kind": "post",
+      "title": "Modern 3D point cloud classification",
+      "date": "2023-08-18",
+      "excerpt": "MLP, graph, convolution and transformer families for unstructured 3D points.",
+      "tags": [
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Aldino Rizaldy.\n\nPoint clouds are irregular, unstructured and unordered, which complicates deep learning. Four families dominate recent work:\n\n- **MLP** — PointNet, PointNet++\n- **Graph** — DGCNN\n- **Convolution** — PointCNN, KPConv\n- **Transformer** — PCT, Point Transformer\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)\n\n![Figure 2](fig-03.png)\n\n![Figure 3](fig-04.png)\n\n![Figure 4](fig-05.png)\n\n![Figure 5](fig-06.png)\n\n![Figure 6](fig-07.png)\n\n![Figure 7](fig-08.png)\n\n![Figure 8](fig-09.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png",
+        "fig-02.png",
+        "fig-03.png",
+        "fig-04.png",
+        "fig-05.png",
+        "fig-06.png",
+        "fig-07.png",
+        "fig-08.png",
+        "fig-09.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2023-08-10-earthquake-eews",
+      "kind": "post",
+      "title": "IoT-cloud earthquake early-warning systems",
+      "date": "2023-08-10",
+      "excerpt": "A survey of IoT and cloud infrastructure for earthquake early warning, with Wilfried Adoni as co-author.",
+      "tags": [
+        "paper"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "IoT-cloud earthquake early-warning systems",
+        "authors": [],
+        "journal": "Encyclopedia",
+        "year": null,
+        "date": "2023-08-10",
+        "doi": "",
+        "url": "https://encyclopedia.pub/entry/invitation/102851",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "Take a look at this survey on IoT-cloud-based earthquake early-warning systems, with Wilfried Yves Hamilton Adoni as co-author: [Early Detection of Earthquakes Using IoT and Cloud Infrastructure](https://encyclopedia.pub/entry/invitation/102851).",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2023-07-20-ros-framework",
+      "kind": "post",
+      "title": "ROS: an open-source framework for advanced robotics",
+      "date": "2023-07-20",
+      "excerpt": "ROS 1 versus ROS 2, and why greenfield swarm work should start on ROS 2.",
+      "tags": [
+        "software",
+        "uav"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Wilfried Yves Hamilton Adoni.\n\nROS is middleware, not an operating system. ROS 2 replaces the ROS 1 transport with DDS and runs on Ubuntu, macOS and Windows. Noetic’s end of life was May 2025; new swarm and robot work should start on ROS 2. A short case study covers an orchestrator with MTConnect.\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.jpg)\n\n![Figure 2](fig-03.png)\n\n![Figure 3](fig-04.png)",
+      "images": [
+        "cover.jpg",
+        "fig-01.png",
+        "fig-02.jpg",
+        "fig-03.png",
+        "fig-04.png"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-07-10-theiax-prize",
+      "kind": "post",
+      "title": "A good day for TheiaX",
+      "date": "2023-07-10",
+      "excerpt": "Richard Gloaguen and TheiaX recognised at the Saxon Innovation Conference.",
+      "tags": [
+        "fieldtrip"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "At the Saxon Innovation Conference (4 July 2023), Richard Gloaguen received the 2nd Saxon Transfer Prize and TheiaX managing director Christian Christesen a special transfer prize.\n\n![Cover](fig-01.jpeg)",
+      "images": [
+        "cover.jpeg",
+        "fig-01.jpeg"
+      ],
+      "image": "cover.jpeg"
+    },
+    {
+      "slug": "2023-06-30-moskito",
+      "kind": "post",
+      "title": "Moskito, an open-source hardware hexacopter",
+      "date": "2023-06-30",
+      "excerpt": "A medium RPAS with a 6 kg payload and a foldable magnetometer arm.",
+      "tags": [
+        "uav",
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "Moskito is a medium RPAS hexacopter with a maximum payload of 6 kg, spearheaded by Junaidh Shaik Fareedh with Yuleika Madriz and Richard Gloaguen. A magnetometer hangs from a foldable arm. Collaborations include Mohammed First University, Oujda, and IIT Gandhinagar.",
+      "images": [],
+      "image": ""
+    },
+    {
+      "slug": "2023-06-22-3d-printing-1",
+      "kind": "post",
+      "title": "3D printing and drone building: 1",
+      "date": "2023-06-22",
+      "excerpt": "Additive manufacturing of mounts, joints and covers on carbon-fibre airframes.",
+      "tags": [
+        "uav"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Junaidh Shaik Fareedh.\n\nAdditive manufacturing for drone mounts, joints and covers on carbon-fibre frames, using a MakerBot Method X dual extruder. The post covers process, materials, applications, advantages and limitations.\n\n![Cover](fig-01.jpg)\n\n![Figure 1](fig-02.jpg)",
+      "images": [
+        "cover.jpg",
+        "fig-01.jpg",
+        "fig-02.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-06-22-3d-printing-2",
+      "kind": "post",
+      "title": "3D printing and drone building: 2",
+      "date": "2023-06-22",
+      "excerpt": "ABS, PETG and Onyx for outdoor drone parts — and why PLA-blend ‘Tough’ deforms in the sun.",
+      "tags": [
+        "uav"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Junaidh Shaik Fareedh.\n\nFDM printing at 1.75 mm. Daily materials in the DroneLab are ABS, PETG and Onyx Tough. ABS holds up better to UV and heat than MakerBot Tough (a PLA–nylon blend), which deforms in the sun.\n\n![Cover](fig-01.jpg)\n\n![Figure 1](fig-02.jpg)\n\n![Figure 2](fig-03.jpg)",
+      "images": [
+        "cover.jpg",
+        "fig-01.jpg",
+        "fig-02.jpg",
+        "fig-03.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-06-06-intelligent-agents",
+      "kind": "post",
+      "title": "Intelligent agents in the age of artificial intelligence",
+      "date": "2023-06-06",
+      "excerpt": "A short survey of agents, PEAS, BDI and multi-agent systems.",
+      "tags": [
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Mariam Tiotio Berthé and Wilfried Yves Hamilton Adoni.\n\nA survey of intelligent agents and multi-agent systems: definitions (Wooldridge, Russell & Norvig, Ferber), objects versus agents, PEAS, environment properties, BDI architectures, and the elements of a MAS.\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)",
+      "images": [
+        "cover.jpg",
+        "fig-01.png",
+        "fig-02.png"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-05-02-classification-of-uavs",
+      "kind": "post",
+      "title": "Investigation of Autonomous Multi-UAV Systems for Target Detection in Distributed Environment: Current Developments and Open Challenges",
+      "date": "2023-05-02",
+      "excerpt": "A review of autonomous multi-UAV systems for target detection in distributed environments.",
+      "tags": [
+        "paper",
+        "uav"
+      ],
+      "authors": [
+        "Wilfried Adoni",
+        "Sandra Lorenz",
+        "Junaidh Fareedh",
+        "Richard Gloaguen",
+        "Michael Bussmann"
+      ],
+      "doi": "10.3390/drones7040263",
+      "paper": {
+        "title": "Investigation of Autonomous Multi-UAV Systems for Target Detection in Distributed Environment: Current Developments and Open Challenges",
+        "authors": [
+          "Wilfried Adoni",
+          "Sandra Lorenz",
+          "Junaidh Fareedh",
+          "Richard Gloaguen",
+          "Michael Bussmann"
+        ],
+        "journal": "Drones",
+        "year": 2023,
+        "date": "2023-05-02",
+        "doi": "10.3390/drones7040263",
+        "url": "https://doi.org/10.3390/drones7040263",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": true,
+      "body": "Take a look at the summary of Wilfried Hamilton and colleagues' paper on autonomous multi-UAV systems.\n\nUncrewed aerial vehicles are now ubiquitous, with use cases from governmental applications to agriculture, medicine and transport. Depending on demand, missions can involve several types of UAV and a range of onboard sensors.\n\nFull article: [Drones 7(4):263](https://www.mdpi.com/2504-446X/7/4/263)",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-04-26-explain-ml",
+      "kind": "post",
+      "title": "Explain your machine-learning model: the why and the how",
+      "date": "2023-04-26",
+      "excerpt": "SHAP, LIME and related XAI methods for high-stakes remote-sensing models.",
+      "tags": [
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "By Samiran Das.\n\nHigh-stakes models need explanations. This note covers SHAP, DeepSHAP, DeepLIFT, CXplain and LIME, and the distinction between model-agnostic and intrinsic interpretability. Starting points include Molnar’s *Interpretable Machine Learning*, Ribeiro et al. (LIME) and Lundberg & Lee (SHAP).",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-04-06-ireland-drillcore",
+      "kind": "post",
+      "title": "Hyperspectral drill-core scanning in Ireland",
+      "date": "2023-04-06",
+      "excerpt": "VECTOR campaign: ~5 km of Irish sedimentary core scanned with RGB, SWIR, MWIR and LWIR.",
+      "tags": [
+        "fieldtrip",
+        "drillcore"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "As part of VECTOR we scanned about five kilometres of Irish sedimentary drill core — RGB, SWIR, MWIR and LWIR — in two weeks with Teck Ireland and Group Eleven. **Crunchy** ran near-real-time corrections on site.",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2023-01-24-helmholtz-imaging",
+      "kind": "post",
+      "title": "HIF Explo at the Helmholtz Imaging Contest",
+      "date": "2023-01-24",
+      "excerpt": "Sam Thiele and René Booysen placed in the 2022 Helmholtz Imaging Contest.",
+      "tags": [
+        "fieldtrip"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "At the Helmholtz Imaging Conference 2022, Sam Thiele’s “Spectral Detective” reached the top 20 and René Booysen’s “Finding rare earth from space” took 3rd Jury prize. The images joined a travelling exhibition and the 2023 calendar.",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2022-11-02-aeromagnetic-noise",
+      "kind": "post",
+      "title": "Recognising anthropogenic noise in aeromagnetic data",
+      "date": "2022-11-02",
+      "excerpt": "A multi-parameter detector for cultural noise in scalar magnetics over the Erzgebirge.",
+      "tags": [
+        "paper",
+        "fieldtrip"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "Recognising anthropogenic noise in aeromagnetic data",
+        "authors": [],
+        "journal": "",
+        "year": null,
+        "date": "2022-11-02",
+        "doi": "",
+        "url": "",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "A multi-parameter approach for recognising anthropogenic noise in aeromagnetic data collected over populated areas (Erzgebirge, Germany). Five detectors plus a sum are compared with the Keating method, using 2-D shape index, flight height and GIS verification.",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2022-11-02-ambient-seismic",
+      "kind": "post",
+      "title": "Ambient seismic noise analysis of LARGE-N data, Central Erzgebirge",
+      "date": "2022-11-02",
+      "excerpt": "Passive seismic tomography of the Geyer–Ehrenfriedersdorf Sn–W–Li district.",
+      "tags": [
+        "paper",
+        "fieldtrip"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "Ambient seismic noise analysis of LARGE-N data, Central Erzgebirge",
+        "authors": [],
+        "journal": "",
+        "year": null,
+        "date": "2022-11-02",
+        "doi": "",
+        "url": "",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "Ambient seismic-noise tomography is a low-impact method to investigate Earth’s structure. A 400-station LARGE-N array and transdimensional hierarchical MCMC tomography yield 3-D shear-wave velocity to about 500 m, combined with TEM and nine unsupervised classes that place greisen in the granite roof of the Geyer–Ehrenfriedersdorf Sn–W–Zn–In–Bi–Li district.",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2022-11-02-deep-clustering",
+      "kind": "post",
+      "title": "Unsupervised data fusion with a deeper perspective",
+      "date": "2022-11-02",
+      "excerpt": "A multisensor deep-clustering algorithm combining spectral and spatial autoencoders.",
+      "tags": [
+        "paper"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "Unsupervised data fusion with a deeper perspective",
+        "authors": [],
+        "journal": "",
+        "year": null,
+        "date": "2022-11-02",
+        "doi": "",
+        "url": "",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "The ever-growing variety of image data — hyperspectral imaging and lidar among them — motivates unsupervised fusion. MDC combines a spectral autoencoder, a spatial convolutional autoencoder and a fusion network, demonstrated on HSI plus lidar DSM at two benchmark sites.",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2022-11-02-disko-magnetic",
+      "kind": "post",
+      "title": "Drone-based magnetic and multispectral surveys at Disko, Greenland",
+      "date": "2022-11-02",
+      "excerpt": "UAS magnetics and multispectral mapping of the Asuk Member for Ni–Cu–Co–PGE–Au targeting.",
+      "tags": [
+        "paper",
+        "fieldtrip",
+        "uav"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "Drone-based magnetic and multispectral surveys at Disko, Greenland",
+        "authors": [],
+        "journal": "",
+        "year": null,
+        "date": "2022-11-02",
+        "doi": "",
+        "url": "",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "Mineral exploration in the West Greenland flood-basalt province is attractive because of its resemblance to magmatic sulphide-rich systems. At Qullissat on northern Disko we combined UAS magnetics and multispectral data to build a 3-D magnetisation-vector model that includes remanence acquired during a reversal, and to account for landslide-rotated blocks when targeting Ni–Cu–Co–PGE–Au.",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2022-11-02-geyer-skarns",
+      "kind": "post",
+      "title": "Locating skarns with magnetic survey data, Geyer, Erzgebirge",
+      "date": "2022-11-02",
+      "excerpt": "Optimising ground, drone and airborne magnetic surveys for thin dipping skarns.",
+      "tags": [
+        "paper",
+        "fieldtrip"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "Locating skarns with magnetic survey data, Geyer, Erzgebirge",
+        "authors": [],
+        "journal": "",
+        "year": null,
+        "date": "2022-11-02",
+        "doi": "",
+        "url": "",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "Magnetic data can be acquired from ground, drone or helicopter platforms with a variety of sensors. This study optimises survey parameters for thin, dipping skarns at Geyer in the Erzgebirge, using petrophysics and Variscan remanence. Ground and low drone surveys outperform aircraft SQUID FTMG for these targets.",
+      "images": [
+        "cover.jpg"
+      ],
+      "image": "cover.jpg"
+    },
+    {
+      "slug": "2022-11-02-ml-responsible-sourcing",
+      "kind": "post",
+      "title": "Machine learning for more responsible sourcing of critical raw materials",
+      "date": "2022-11-02",
+      "excerpt": "A review of ML for imaging sensors across exploration and mining platforms.",
+      "tags": [
+        "paper"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "Machine learning for more responsible sourcing of critical raw materials",
+        "authors": [],
+        "journal": "",
+        "year": null,
+        "date": "2022-11-02",
+        "doi": "",
+        "url": "",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "Digitisation and automation of the raw-material sector are required to meet Paris Agreement targets. This review covers machine learning for imaging sensors: platforms, corrections, workflows and open resources, including a geology map of Corta Atalaya derived from a random forest on a hypercloud.",
+      "images": [
+        "cover.gif"
+      ],
+      "image": "cover.gif"
+    },
+    {
+      "slug": "2022-11-02-test-sites",
+      "kind": "post",
+      "title": "Integrated test sites for innovation ecosystems",
+      "date": "2022-11-02",
+      "excerpt": "What multi-industrial test sites need, and what they return to regional innovation systems.",
+      "tags": [
+        "paper"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "Integrated test sites for innovation ecosystems",
+        "authors": [],
+        "journal": "",
+        "year": null,
+        "date": "2022-11-02",
+        "doi": "",
+        "url": "",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "Natural test sites are resource-intensive and often limited to single industries or technologies. This note draws on two strands of research to describe environment, logistics and technology requirements for multi-industrial test sites, their value for developers, and regional absorptive capacity.\n\n![Cover](fig-01.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2022-de-la-rosa-logging",
+      "kind": "post",
+      "title": "Automated Multi-Scale and Multivariate Geological Logging from Drill-Core Hyperspectral Data",
+      "date": "2022-11-02",
+      "excerpt": "Automated multi-scale and multivariate geological logging from drill-core hyperspectral data.",
+      "tags": [
+        "paper",
+        "drillcore"
+      ],
+      "authors": [
+        "Roberto De La Rosa",
+        "Raimon Tolosana-Delgado",
+        "Moritz Kirsch",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.3390/rs14112676",
+      "paper": {
+        "title": "Automated Multi-Scale and Multivariate Geological Logging from Drill-Core Hyperspectral Data",
+        "authors": [
+          "Roberto De La Rosa",
+          "Raimon Tolosana-Delgado",
+          "Moritz Kirsch",
+          "Richard Gloaguen"
+        ],
+        "journal": "Remote Sensing",
+        "year": 2022,
+        "date": "2022-11-02",
+        "doi": "10.3390/rs14112676",
+        "url": "https://doi.org/10.3390/rs14112676",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": true,
+      "body": "Automated multi-scale and multivariate geological logging from drill-core hyperspectral data, demonstrating how spectral products can support objective, reproducible core logging.",
+      "images": [],
+      "image": ""
+    },
+    {
+      "slug": "2022-lorenz-black-angel",
+      "kind": "post",
+      "title": "Three-Dimensional, Km-Scale Hyperspectral Data of Well-Exposed Zn–Pb Mineralization at Black Angel Mountain, Greenland",
+      "date": "2022-11-02",
+      "excerpt": "Open km-scale hyperspectral data of Zn–Pb mineralisation at Black Angel Mountain, Greenland.",
+      "tags": [
+        "paper",
+        "dataset",
+        "outcrop"
+      ],
+      "authors": [
+        "Sandra Lorenz",
+        "Sam T. Thiele",
+        "Moritz Kirsch",
+        "Gabriel Unger",
+        "Robert Zimmermann",
+        "Pierpaolo Guarnieri",
+        "Nigel Baker",
+        "Erik Vest Sørensen",
+        "Diogo Rosa",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.3390/data7080104",
+      "paper": {
+        "title": "Three-Dimensional, Km-Scale Hyperspectral Data of Well-Exposed Zn–Pb Mineralization at Black Angel Mountain, Greenland",
+        "authors": [
+          "Sandra Lorenz",
+          "Sam T. Thiele",
+          "Moritz Kirsch",
+          "Gabriel Unger",
+          "Robert Zimmermann",
+          "Pierpaolo Guarnieri",
+          "Nigel Baker",
+          "Erik Vest Sørensen",
+          "Diogo Rosa",
+          "Richard Gloaguen"
+        ],
+        "journal": "Data",
+        "year": 2022,
+        "date": "2022-11-02",
+        "doi": "10.3390/data7080104",
+        "url": "https://doi.org/10.3390/data7080104",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": true,
+      "body": "Hyperspectral imaging is an innovative technology for non-invasive mapping, with increasing applications in many sectors. This data paper releases three-dimensional, kilometre-scale hyperspectral observations of well-exposed Zn–Pb mineralisation at Black Angel Mountain, Greenland, plus a tutorial.\n\nThe figures show (a) a true-colour RGB photogrammetric point cloud, (b) a false-colour iron index (red = Fe³⁺, green = Fe²⁺, blue = FeOH), and (c) a minimum-wavelength map for carbonate.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "2022-shahi-ms2anet",
+      "kind": "post",
+      "title": "MS$^{2}$A-Net: Multiscale Spectral–Spatial Association Network for Hyperspectral Image Clustering",
+      "date": "2022-11-02",
+      "excerpt": "A multiscale spectral–spatial association network for hyperspectral image clustering.",
+      "tags": [
+        "paper"
+      ],
+      "authors": [
+        "Kasra Rafiezadeh Shahi",
+        "Pedram Ghamisi",
+        "Behnood Rasti",
+        "Richard Gloaguen",
+        "Paul Scheunders"
+      ],
+      "doi": "10.1109/JSTARS.2022.3198137",
+      "paper": {
+        "title": "MS$^{2}$A-Net: Multiscale Spectral–Spatial Association Network for Hyperspectral Image Clustering",
+        "authors": [
+          "Kasra Rafiezadeh Shahi",
+          "Pedram Ghamisi",
+          "Behnood Rasti",
+          "Richard Gloaguen",
+          "Paul Scheunders"
+        ],
+        "journal": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+        "year": 2022,
+        "date": "2022-11-02",
+        "doi": "10.1109/JSTARS.2022.3198137",
+        "url": "https://doi.org/10.1109/jstars.2022.3198137",
+        "type": "journal-article",
+        "source": "crossref"
+      },
+      "selected": true,
+      "body": "MS²A-Net is a multiscale spectral–spatial association network for unsupervised clustering of hyperspectral images, with applications to geological, rural and urban mapping.",
+      "images": [],
+      "image": ""
+    },
+    {
+      "slug": "2022-10-12-undip",
+      "kind": "post",
+      "title": "UnDIP: hyperspectral unmixing using a deep image prior",
+      "date": "2022-10-12",
+      "excerpt": "SiVM endmembers plus a CNN deep-image-prior for abundances.",
+      "tags": [
+        "paper",
+        "software"
+      ],
+      "authors": [],
+      "doi": "",
+      "paper": {
+        "title": "UnDIP: hyperspectral unmixing using a deep image prior",
+        "authors": [],
+        "journal": "",
+        "year": null,
+        "date": "2022-10-12",
+        "doi": "",
+        "url": "",
+        "type": "",
+        "source": ""
+      },
+      "selected": false,
+      "body": "A deep-learning technique for linear hyperspectral unmixing: simplex-volume maximisation (SiVM) estimates endmembers, and a convolutional deep-image-prior estimates abundances. Tests span SNR 20–50 dB in Python 3.8 / PyTorch.\n\n![Cover](fig-01.jpg)",
+      "images": [
+        "cover.jpg",
+        "fig-01.jpg"
+      ],
+      "image": "cover.jpg"
+    }
+  ],
+  "people": [
+    {
+      "slug": "richard-gloaguen",
+      "kind": "people",
+      "title": "Richard Gloaguen",
+      "image": "photo.jpg",
+      "role": "Senior Researcher",
+      "order": 1,
+      "body": "Head of the Exploration Department at the Helmholtz-Institute Freiberg for Resource Technology. Richard Gloaguen received the Ph.D. degree “Doctor Communitatis Europae” in marine geosciences from the University of Western Brittany, Brest, France, in collaboration with the Royal Holloway University of London, U.K., and Göttingen University, Germany, in 2000. He was a Marie Curie Post-Doctoral Research Associate at the Royal Holloway University of London from 2000 to 2003. He led the Remote Sensing Group at University Bergakademie Freiberg, Freiberg, Germany, from 2003 to 2013. Since 2013, he has been leading the division “Exploration Technology” at the Helmholtz-Institute Freiberg for Resource Technology, Freiberg. He is currently involved in UAV-based multisource imaging, laser-induced fluorescence, and non-invasive exploration. His research interests focus on multisource and multiscale remote sensing integration using computer vision and machine learning.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "sandra-lorenz",
+      "kind": "people",
+      "title": "Sandra Lorenz",
+      "image": "photo.jpg",
+      "role": "Spectral Imaging Enthusiast",
+      "order": 2,
+      "body": "My research interests are in drone-based, terrestrial and lab-scale (hyper) spectral imaging for non-invasive mineral exploration, or more specifically:\n\n- innovative exploration technologies and optical remote sensing\n- digital processing of multi-modal image and point-cloud data\n- spectroscopy, spectral imaging and material mapping\n- sensor development and data acquisition\n- autonomous airborne and terrestrial platforms\n- machine learning and data fusion",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "gopi-krishnan-regulan",
+      "kind": "people",
+      "title": "Gopi Krishnan Regulan",
+      "image": "photo.jpg",
+      "role": "Robotics Engineer",
+      "order": 3,
+      "body": "Gopi is a Robotics Research Engineer specialising in industrial robotics, mobile robotics and autonomous systems. With a Master’s degree in Robotics Engineering from France, Gopi has a comprehensive background in developing and optimising robotic systems. His expertise spans software and embedded systems development, mechanical design and the integration of robots with vision systems, sensors and industrial networks. Gopi is passionate about product development and the testing of autonomous robots and manipulators. His research interests include the design, dynamics and control of legged robots.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "margret-fuchs",
+      "kind": "people",
+      "title": "Margret Fuchs",
+      "image": "photo.jpg",
+      "role": "Geoscientist",
+      "order": 4,
+      "body": "Margret Fuchs studied geography at the Technical University Dresden, Germany, and received her Ph.D. degree in geology at the TU Bergakademie Freiberg, Germany, in 2014. Her scientific background lies in the field of earth sciences and geochronology for understanding timing and rates of landscape evolution. Many multi-disciplinary collaborations directed her focus towards the development and improvement of luminescence techniques for various applications in geoscience. The immense potential for material characterisation motivated her for innovating spectroscopy-based technologies in order to increase efficiency and accuracy in non-invasive exploration. She works in particular on the development of laser-induced fluorescence for applications in the raw material sector, adapting optical spectroscopy for material stream characterisation and on integrating multiple sensors into smart networks.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "sam-thiele",
+      "kind": "people",
+      "title": "Sam Thiele",
+      "image": "photo.jpg",
+      "role": "Geologist & Data Scientist",
+      "order": 5,
+      "body": "I am a structural geologist and data scientist interested in unravelling the complex systems and processes that shape volcanic and mineral systems. These are highly structured in many ways, unstructured in others, and largely hidden from view. I aim to make geoscience digital, applying data science and computer simulation to capture, synthesise and analyse diverse and multi-scale earth system data. This includes the use of cutting-edge lab, ground and drone-borne hyperspectral sensors to accurately quantify and map geological systems.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "ahmed-afifi",
+      "kind": "people",
+      "title": "Ahmed J. Afifi",
+      "image": "photo.jpg",
+      "role": "Computer Vision Scientist",
+      "order": 6,
+      "body": "Ahmed J. Afifi was born in 1985. He received the bachelor’s and M.Sc. degrees in computer engineering from the Islamic University of Gaza, in 2008 and 2011, respectively. He obtained his Ph.D. (Dr.-Ing.) degree from Technische Universität Berlin in 2021 under the supervision of Prof. Hellwich. His research interests include computer vision, deep learning, 3D object reconstruction from a single image, and medical image analysis. Currently, Ahmed is a postdoc researcher with the Exploration Department where he is working on processing 3D data using deep learning.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "yuleika-madriz",
+      "kind": "people",
+      "title": "Yuleika Madriz",
+      "image": "photo.jpg",
+      "role": "Head Research Engineer",
+      "order": 7,
+      "body": "Yuleika Madriz is a research engineer within the Division of Exploration at the Helmholtz Institute Freiberg for Resource Technology in Germany. Her research interest lies on drone-borne geophysics for non-invasive mineral exploration, with focus on magnetic data acquisition, processing and interpretation. She received her M.Sc. degree in Sustainable Mining and Remediation Management from TU Bergakademie Freiberg, Germany. She holds a B.Sc. degree in Geophysical Engineering from the Simon Bolivar University in Caracas, Venezuela.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "pedram-ghamisi",
+      "kind": "people",
+      "title": "Pedram Ghamisi",
+      "image": "photo.jpg",
+      "role": "Machine Learner",
+      "order": 8,
+      "body": "Pedram Ghamisi (S’12, M’15, SM’18) graduated with a Ph.D. in electrical and computer engineering at the University of Iceland in 2015. He works as (1) the head of the machine learning group at Helmholtz-Zentrum Dresden-Rossendorf (HZDR), Germany and (2) research professor and group leader of AI4RS at the Institute of Advanced Research in Artificial Intelligence (IARAI), Austria. His research interests include interdisciplinary research on machine (deep) learning with a sharp focus on remote sensing applications.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "rene-booysen",
+      "kind": "people",
+      "title": "René Booysen",
+      "image": "photo.jpg",
+      "role": "Remote Sensing Geologist",
+      "order": 9,
+      "body": "I have a Ph.D. in geology and generally speaking I consider myself a remote sensing geologist. My research interests include the use of multi-scale remote sensing data (including drone-borne data) for mineral exploration. My skills are focused toward geological applications, such as the use of spectroscopy for mineral identification, multi- and hyperspectral image processing as well as geological field work.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "elias-arbash",
+      "kind": "people",
+      "title": "Elias Arbash",
+      "image": "photo.jpg",
+      "role": "Mechatronics Engineer",
+      "order": 10,
+      "body": "This is Elias Arbash, a Mechatronics Engineer with double masters in Mechatronics and Intelligent Systems. I am doing my Ph.D. in imagery data fusion using machine learning and deep learning with a goal of developing a high-level controller for a robotic arm. My main tasks involve data preparation, cleaning, and preprocessing of RGB and hyperspectral data for subsequent processing with deep learning models such as object detection and segmentation, in real time. I am aiming at building processing routines for conveyor-belt scenarios that can combine high spatial resolution RGB and high spectral resolution HSI. I utilise high-performance computers with Python and parallel processing techniques.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "aldino-rizaldy",
+      "kind": "people",
+      "title": "Aldino Rizaldy",
+      "image": "photo.jpg",
+      "role": "Photogrammetry and Deep Learning Enthusiast",
+      "order": 11,
+      "body": "I am a photogrammetry and deep learning enthusiast. I’ve done many works on 3D reconstruction from various large-format or small-format aerial cameras, carried by manned or unmanned aerial vehicles. In the last couple of years, I’ve been working on deep learning for images and point clouds. Now, I’m interested in point cloud segmentation with additional hyperspectral features.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "wilfried-adoni",
+      "kind": "people",
+      "title": "Wilfried Yves Hamilton Adoni",
+      "image": "photo.jpg",
+      "role": "Computer Scientist",
+      "order": 12,
+      "body": "Wilfried Yves Hamilton Adoni is a Scientific Researcher at HZDR-HIF and CASUS working on data integration and machine learning for autonomous multi-UAV systems. He joined the elite group of young Big Data Specialists with IBM BigInsights V2.1 in 2015. He received the B.S. degree in Computer Science and Applied Mathematics from Hassan II University of Casablanca, Morocco in 2012, the M.E. degree in Operational Research and System Optimisation from the same university in 2014, and his Ph.D. in Computer Science and Applied Mathematics from the Science Faculty, Hassan II University of Casablanca.\n\nHe served as Assistant/Associate Professor of Computer Science at the International University of Casablanca and Temporary Assistant, Teaching and Research (ATER) at the French CentraleSupélec School of Casablanca, and Lecturer of Computer Science at Hassan II University of Casablanca. He has been a scientific supervisor at the African Institute of Mathematical Sciences (Senegal and Rwanda) and lecturer in several universities in Africa. He is Vice-President of the Ivorian Society of Operational Research and a reviewer for journals related to big data, AI and HPC.\n\nHis research interests include autonomous drones/UAVs, big data, graph databases, machine learning, path-finding algorithms and traffic-flow analysis.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "junaidh-fareedh",
+      "kind": "people",
+      "title": "Junaidh Shaik Fareedh",
+      "image": "photo.png",
+      "role": "Aerospace Engineer",
+      "order": 13,
+      "body": "I am Junaidh Shaik Fareedh. I completed my bachelor's in Aeronautical Engineering in India and then moved to Sweden for a master's in Aerospace Engineering, which included building satellite structures and space-approved electronics that are now in orbit, launched by ISRO and ESA. I pursued a second master's in Robotics Engineering in Germany, working on satellite-simulating pods and space rovers for testing AI algorithms.\n\nMy passion to build and fly winged aircraft, multirotors and heavy-lifting automated drones is growing by the day.",
+      "images": [
+        "photo.png"
+      ]
+    },
+    {
+      "slug": "rupsa-chakraborty",
+      "kind": "people",
+      "title": "Rupsa Chakraborty",
+      "image": "photo.jpeg",
+      "role": "Remote Sensing Geologist",
+      "order": 14,
+      "body": "I am a Postdoctoral Researcher based at HIF, primarily affiliated with CASUS. My educational background is in Applied Geology and I am very interested in the potential of hyperspectral remote sensing in this niche. I acquired formal training in remote sensing, specialising in geosciences, at the Indian Institute of Remote Sensing under ISRO. I pursued my doctoral degree from Massey University in New Zealand. My doctoral thesis focused on integrating biogeochemical attributes of the vegetation cover with subsurface mineralisation, employing airborne hyperspectral data for mineral exploration.",
+      "images": [
+        "photo.jpeg"
+      ]
+    },
+    {
+      "slug": "sibren-dieters",
+      "kind": "people",
+      "title": "Sibren Dieters",
+      "image": "photo.jpg",
+      "role": "Exploration Intern",
+      "order": 15,
+      "body": "Working on methods for robot-aided hyperspectral imaging for mineral exploration in possibly hazardous underground mining environments. With depleting surface ore reserves, the need for safe methods for underground exploration is increasing. I apply a geology and mining-engineering background to developing innovative exploration methods.\n\nCurrently finishing my mining engineering master's degree with an internship project at the Helmholtz Institute Freiberg for Resource Technology.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "sabawoon-afzali",
+      "kind": "people",
+      "title": "Sabawoon Afzali",
+      "image": "photo.jpg",
+      "role": "Mining engineer and researcher",
+      "order": 16,
+      "body": "I am pursuing a Master's at the Technical University Bergakademie Freiberg (TUBAF), Germany. With a Bachelor's in Mining Engineering at IIT (ISM) Dhanbad, India, my academic journey revolves around Earth's resources. Experience in mining engineering shaped my understanding of sustainable mineral exploration and extraction. My research interests led me to specialise in hyperspectral imaging (HSI) for my thesis, exploring its geological and mining applications. I aim to innovate solutions for safety, productivity, and sustainability in mineral exploration through HSI.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "aastha-singh",
+      "kind": "people",
+      "title": "Aastha Singh",
+      "image": "photo.png",
+      "role": "Sensor & Instrumentation Engineer",
+      "order": 17,
+      "body": "I have a bachelor’s and master’s degree in Sensor and Instrumentation Engineering. I have been working as a Research Engineer at HIF since August 2023. My work involves operation, troubleshooting, and maintenance of multi-sensor systems (hyperspectral cameras, LIBS, XRF). My research interest involves sensor-based systems and signal processing.",
+      "images": [
+        "photo.png"
+      ]
+    },
+    {
+      "slug": "ashitha-mudraje",
+      "kind": "people",
+      "title": "Ashitha Mudraje",
+      "image": "photo.jpeg",
+      "role": "Computer Vision Engineer",
+      "order": 18,
+      "body": "I hold a Master of Science in Computer Science from RPTU Kaiserslautern-Landau. I am currently working as a Research Engineer, specialising in computer vision, image processing, and 3D point cloud analysis. My expertise includes data processing, data classification, and developing object detection solutions for real-world computer vision applications.",
+      "images": [
+        "photo.jpeg"
+      ]
+    },
+    {
+      "slug": "moritz-kirsch",
+      "kind": "people",
+      "title": "Moritz Kirsch",
+      "image": "photo.jpg",
+      "role": "Geologist",
+      "order": 19,
+      "body": "A geologist by training, I became interested in geological remote sensing for mineral exploration.",
+      "images": [
+        "photo.jpg"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "slug": "multisensor",
+      "kind": "research",
+      "title": "Multisensor integration",
+      "image": "cover.png",
+      "subtitle": "Real-time resource characterisation",
+      "order": 1,
+      "projects": [
+        "inspector",
+        "infradatrec",
+        "digisort",
+        "ramses-4-ce",
+        "h2giga",
+        "car2car",
+        "finest",
+        "restore",
+        "regiorec",
+        "kollekt"
+      ],
+      "body": "Optical sensors have become key to most on- and in-line scanning applications in material characterisation, digitalisation, and monitoring. They offer non-invasive sensing to identify the composition of primary and secondary materials without time- and cost-consuming sample preparation and chemical analyses. Based on material-specific physical properties, such sensors provide huge advantages for a selected material group, but show limitations for materials beyond that group, as well as for complex or unknown, variable material streams.\n\nTo innovate available technology, overcome limitations of individual sensors and expand the range of detectable materials, we focus on (1) the development of new, tailored sensor solutions and on (2) the integration of sensors into smart and agile networks. In particular, we combine reflectance hyperspectral imaging (HSI) sensors from VNIR to LWIR with emission spectroscopy using laser-induced fluorescence (LiF) to map material types and their abundances. We investigate further integration concepts for refining position information in 3D (RGB, laser profiler) for improved signal acquisition. We evaluate how resulting data can enable efficient control mechanisms and guide subsequent sensors in automated analysis cycles for validation and updating mapping results. Developed concepts then allow the toolkit of sensors (for example Raman, XRF or LIBS) to expand within the network according to the scope of individual research questions and application cases.\n\n## Research focus\n\nThe HELIOS lab is a research infrastructure to explore the potentials and limits of optical sensors for raw material identification. The concept of HELIOS represents a combination of the EYES with the BRAIN. The EYES are our sensors to record selected physical parameters and the BRAIN provides an efficient and learning data processing architecture. Developments provide technical concepts for operational conditions and workflows for real-time data processing as a basis for process control and monitoring.\n\n- Sensor development and integration for innovative concepts in material-stream characterisation and digitalisation in real time\n- Laser-induced fluorescence (LiF) line-scan sensor integrated with HSI (inSPECtor) for drill cores\n- Raman sensor for point validation integrated within HSI and LiF networks (RAMSES-4-CE)\n- In-line spectroscopy-based sensor networks for HSI, LiF, Raman, XRF and LIBS\n- Infrastructure for battery recycling (XRF, LIBS, robots, conveyor, GPU; InfraDatRec)\n- High-performance computing (GPU, CirculAIre)\n\n**Primary raw materials**, especially critical raw materials in drill cores and re-mining material, including rare-earth elements (inSPECtor, RAMSES-4-CE).\n\n**Secondary raw materials**, especially complex, variable waste streams:\n\n- automated material detection in e-waste recycling (RAMSES-4-CE)\n- battery recycling (DIGISORT, RegioREC, RESTORE)\n- electrolyser recycling (AI4H2 / ReNaRe / H2Giga)\n- automotive recycling (Car2Car, KOLLEKT)\n- additives in polymer recycling (FINEST)\n\n## Research infrastructure\n\nMulti-sensor work started with HELIOS mini in 2018 (RGB, HSI and LiF covering VNIR, SWIR and MWIR). Activities expanded in 2023 with robots, a laser profiler, Raman, XRF and LIBS in the circular HELIOS+ setup. LUNA lab provides further luminescence spectroscopy for dosimetric and geoscientific method development.\n\n![Cover](fig-01.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png"
+      ]
+    },
+    {
+      "slug": "mineral-mapping",
+      "kind": "research",
+      "title": "Mineral mapping",
+      "image": "cover.jpg",
+      "subtitle": "Rapid analysis of drill-core and geological samples",
+      "order": 2,
+      "projects": [
+        "inspector",
+        "ramses-4-ce",
+        "hylite",
+        "digit"
+      ],
+      "body": "We use various imaging sensors to acquire hyperspectral data over rock samples and drill-cores. These sensors cover the visible and near infrared (VNIR), short-wave infrared (SWIR), mid-wave infrared (MWIR) and long-wave infrared (LWIR) ranges of the electromagnetic spectrum. Various minerals show characteristic spectral features in different parts of the spectrum, so combining these datasets can provide a wealth of information on sample mineralogy.\n\nWe use both expert-rule systems based on the interpretation of spectra and machine-learning methods to map minerals rapidly. We have developed Python-based toolboxes for this purpose. By identifying and mapping minerals quickly, we can target areas with high potential for specific mineralisation.",
+      "images": [
+        "cover.jpg"
+      ]
+    },
+    {
+      "slug": "pointcloud",
+      "kind": "research",
+      "title": "Pointcloud processing",
+      "image": "cover.png",
+      "subtitle": "Machine learning and 3D hyperspectral mapping",
+      "order": 3,
+      "projects": [
+        "mulsedro",
+        "mosmin",
+        "hylite"
+      ],
+      "body": "Point clouds provide a simple but flexible way of storing, processing and visualising 3D data. Attributes from various sensors (for example geophysics or hyperspectral imaging) can be attached to 3-D points to derive spatially varying scalar fields.\n\nUnlike image data, 3-D point clouds have an ill-defined topology — they can be treated as an unordered set — which makes many modern deep-learning techniques a significant challenge. We aim to mitigate some of these challenges by developing fit-for-purpose deep-learning methods that are compatible with high-dimensional data distributed across arbitrarily complex 3-D point clouds.",
+      "images": [
+        "cover.png"
+      ]
+    },
+    {
+      "slug": "autonomous-platforms",
+      "kind": "research",
+      "title": "Autonomous platforms",
+      "image": "cover.jpg",
+      "subtitle": "Autonomous platforms for enhanced mapping",
+      "order": 4,
+      "projects": [
+        "mosmin",
+        "hyperuav-1",
+        "hyperuav-2",
+        "autotarget",
+        "mulsedro"
+      ],
+      "body": "Autonomous platforms allow us to deploy innovative sensor technology in otherwise inaccessible regions. Unmanned aerial vehicles support high-resolution mapping of remote exploration areas, steep cliffs, or active open-pit mines. Terrestrial robots help explore confined or hazardous spaces such as underground mines and tunnels.\n\nAs part of our mission to operationalise non-invasive material mapping, we combine autonomous platforms with Earth observation technology. That means addressing technical compatibility of hyperspectral and geophysical payloads, data quality under complex conditions, and rapid processing of large datasets. We also research collaborative data collection by task-distributed drone swarms, adapted sensor design, autonomous validation, real-time hypercloud processing, and navigation that uses hyperspectral information.\n\n## Research focus\n\n**Innovative drone platforms.** For flexibility and interoperability with different payloads, we design, manufacture and program drone platforms in our in-house DroneLab. Payloads include hyperspectral cameras in the visible, near- and shortwave infrared, thermal cameras, magnetometers, radiometers and lidar. We also develop novel airframes and share some systems as open hardware.\n\n**Processing workflows for innovative sensors.** Custom payloads challenge the availability of reliable geometric and radiometric correction. We contribute open tools including MEPHySTo (frame-based hyperspectral), hylite (pushbroom hyperspectral, nadir and oblique), and the MAGNETO toolbox (magnetic and radiometric data), and we integrate surface spectroscopy with subsurface geophysics (Mulsedro, MOSMIN).\n\n**Multiscale mapping.** Drone data bridges satellite or airborne remote sensing (pixels of several to tens of metres) and sparse but detailed ground observations. Through HyperUAV we study scale effects on spectral derivatives, compare sensors and platforms, and develop super-resolution and generative enhancement — with applications to critical-raw-material exploration (for example REE-bearing carbonatites) and mine-site monitoring (MOSMIN).\n\n**Autonomous acquisition.** AutoTarget develops a task-distributed drone network that combines long-endurance light systems with heavy-duty sensor platforms. In parallel we are autonomising mapping routines for shafts and tunnels: the terrestrial robot platform REX carries a hyperspectral camera and laser scanner, and the first underground recordings have been demonstrated.\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)",
+      "images": [
+        "cover.jpg",
+        "fig-01.png",
+        "fig-02.png"
+      ]
+    },
+    {
+      "slug": "outcrop-mapping",
+      "kind": "research",
+      "title": "Outcrop mapping",
+      "image": "cover.jpg",
+      "subtitle": "3D hyperspectral mapping of complex outcrops and mine faces",
+      "order": 5,
+      "projects": [
+        "mulsedro",
+        "mosmin",
+        "vector",
+        "curlew",
+        "hylite",
+        "digit"
+      ],
+      "body": "Outcrop mapping provides crucial geological information in the exploration, evaluation, mining and monitoring phases of mineral-resource development. It is also an essential part of quality and process control and geotechnical risk assessment. Traditionally, geologists map visually and in direct contact with the outcrop. That is time-consuming, inefficient and subjective, and it can be dangerous: recently blasted faces are often unstable.\n\nRemote mapping of mine walls has therefore focused on two data types: (i) detailed three-dimensional outcrop models and (ii) two-dimensional hyperspectral images from which material composition can be derived. Our work merges high-resolution point clouds with hyperspectral images into *hyperclouds*. These datasets allow integrated representation, analysis and interpretation of geometric and spectral features.",
+      "images": [
+        "cover.jpg"
+      ]
+    },
+    {
+      "slug": "learning",
+      "kind": "research",
+      "title": "Learning",
+      "image": "cover.jpg",
+      "subtitle": "Machine learning for remote sensing data",
+      "order": 6,
+      "projects": [
+        "hyperuav-1",
+        "hyperuav-2",
+        "autotarget",
+        "ramses-4-ce",
+        "curlew",
+        "digit"
+      ],
+      "body": "Machine-learning methods are revolutionising the analysis of remote-sensing data by enabling rapid and accurate extraction of information from large datasets. These methods improve the efficiency of tasks that inform decisions in environmental conservation, urban planning, disaster management, mineral exploration and mine monitoring.",
+      "images": [
+        "cover.jpg"
+      ]
+    },
+    {
+      "slug": "geological-modelling",
+      "kind": "research",
+      "title": "Geological modelling",
+      "image": "cover.png",
+      "subtitle": "Neural-field models that update with new mine and outcrop data",
+      "order": 7,
+      "projects": [
+        "curlew",
+        "digit"
+      ],
+      "body": "Geological models have to honour sparse, mixed observations — contacts, orientations, borehole intervals, mine-face maps — and a history of folding, faulting, unconformities and intrusion. We treat that history as a graph of events whose geometry is carried by implicit fields, so structures can be built in geological order and updated when new data arrive.\n\n**curlew** implements this as differentiable neural and analytical fields in Python. The same framework interpolates real constraints or replaces the fields with simple functions to synthesise geology for testing and inversion. **DigIT** takes those ideas into near-mine exploration: self-updating common-earth models that absorb hyperspectral mine-face maps, coupled with physical-chemical simulation of ore-forming processes so that new exposures feed deposit-scale targets rather than being lost to production.\n\nThe aim is models that stay current with mapping, remain reusable across software, and support targeting next to active and historic mines.",
+      "images": [
+        "cover.png"
+      ]
+    },
+    {
+      "slug": "remote-monitoring",
+      "kind": "research",
+      "title": "Remote monitoring",
+      "image": "cover.png",
+      "subtitle": "Earth observation and in situ sensing of operating mines",
+      "order": 8,
+      "projects": [
+        "mosmin"
+      ],
+      "body": "Operating mines continually change: pit walls and tailings move, surfaces weather, and new material is exposed or stored. Capturing those changes at site scale needs more than occasional surveys. We combine satellite Earth observation with UAV and in situ sensors so that deformation, surface composition and the shallow subsurface can be watched together.\n\nThat work is centred on **MOSMIN**, a Horizon Europe action for multiscale observation of mine operations. Copernicus supplies wide-area deformation and composition maps; drones and ground sensors, machine-learning fusion and distributed fibre-optic sensing fill the gaps at higher resolution. The same stack supports geotechnical and environmental monitoring and the valorisation of mining-related deposits.\n\nThe practical goals are lower safety and environmental risk, greener observation tools, and transparent ESG reporting — without waiting for the next field campaign.",
+      "images": [
+        "cover.png"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "curlew",
+      "kind": "projects",
+      "title": "curlew neural field modelling",
+      "years": "ongoing",
+      "funding": "Open-source software",
+      "research": [
+        "learning",
+        "outcrop-mapping",
+        "geological-modelling"
+      ],
+      "body": "**curlew** is an open-source Python toolkit for 2- and 3-dimensional geological models built with neural fields. Diverse geological data can be included in a graph-based framework so that unconformities, folds, faults and intrusions are constructed in geological-history order.\n\nThe same framework also builds synthetic geology, replacing neural fields with simple mathematical functions that can be sampled for testing and algorithm development. Everything is implemented in a differentiable way with PyTorch, so the models can sit inside inversion and optimisation workflows.\n\nSource and docs: [github.com/samthiele/curlew](https://github.com/samthiele/curlew). The method is described by Kamath, Thiele and others (2026), *Curlew 1.0: Spatio-temporal implicit geological modelling with neural fields in python*, [Solid Earth](https://doi.org/10.31223/X5KX81).",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "hylite",
+      "kind": "projects",
+      "title": "hylite hyperspectral toolboxes",
+      "years": "ongoing",
+      "funding": "Open-source software",
+      "research": [
+        "pointcloud",
+        "outcrop-mapping",
+        "mineral-mapping"
+      ],
+      "body": "**hylite** is an open-source Python toolbox for loading and preprocessing imagery from a range of hyperspectral sensors, applying analyses such as multi-feature minimum-wavelength mapping, dimensionality reduction and band ratios, and fusing HSI with high-resolution point clouds into radiometrically corrected hyperclouds. Spectral libraries and ground or laboratory measurements can be integrated for supervised classification. The same methods apply across spectral data types — libraries, images and point clouds — so they can be analysed and combined in one workflow.\n\nThat cross-sensor, cross-modality design covers drill-core scanning and core-shed mosaics, UAV and satellite surveys (including oblique pushbroom geometry), outcrop and open-pit mapping, hyperclouds that attach spectra to 3-D geometry, and interactive work with spectral libraries. The same preprocessing, correction and visualisation tools therefore serve laboratory samples, field scenes and Earth-observation datasets.\n\nhylite is the core of a wider open-source hyperspectral stack. Companion packages include [hycore](https://github.com/samthiele/hycore) and [hywiz](https://github.com/samthiele/hywiz) for organising and viewing drill-core libraries, [hklearn](https://github.com/samthiele/hklearn) for multi-sensor machine learning, [ispec](https://github.com/samthiele/ispec) for querying and mixing spectral libraries, [crunchy](https://github.com/samthiele/crunchy) for realtime multithreaded processing, and a developing [napari-hippo](https://github.com/samthiele/napari-hippo) interface.\n\nSource and docs: [github.com/hifexplo/hylite](https://github.com/hifexplo/hylite), [hifexplo.github.io/hylite](https://hifexplo.github.io/hylite/hylite.html).",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "luna-lab",
+      "kind": "projects",
+      "title": "LUNA lab",
+      "image": "cover.png",
+      "years": "ongoing",
+      "funding": "Joint infrastructure — HIF, TUBAF Applied Physics, Freiberg Instruments",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "HZDR-HIF",
+        "Institute of Applied Physics, TU Bergakademie Freiberg",
+        "Freiberg Instruments"
+      ],
+      "body": "Joint infrastructure for methodological developments in geochronology and spectroscopy, including the R package *Luminescence*, the Sandbox toolkit, and DFG projects REPLAY and ARENICOLA (automated grain classification and multi-spectral deconvolution).\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)\n\n![Figure 2](fig-03.png)\n\n![Figure 3](fig-04.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png",
+        "fig-02.png",
+        "fig-03.png",
+        "fig-04.png"
+      ]
+    },
+    {
+      "slug": "kollekt",
+      "kind": "projects",
+      "title": "KOLLEKT",
+      "years": "2026–2029",
+      "funding": "BMFTR",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "HELLA",
+        "Covestro",
+        "BMW",
+        "geba",
+        "SW-Maschinenservice",
+        "HZDR",
+        "Fraunhofer",
+        "Heinz Nixdorf Institut",
+        "Hochschule Hamm-Lippstadt"
+      ],
+      "body": "Recycling and second use of automotive lights — efficient sensor solutions for sorting and for supporting disassembly control and automation.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "digit",
+      "kind": "projects",
+      "title": "DigIT",
+      "years": "2026–2028",
+      "funding": "BMFTR EGARoh — digitization and geomodelling for intelligent exploration",
+      "research": [
+        "outcrop-mapping",
+        "mineral-mapping",
+        "learning",
+        "geological-modelling"
+      ],
+      "partners": [
+        "Helmholtz-Zentrum Dresden-Rossendorf (HZDR-HIF)",
+        "Terranigma Solutions GmbH"
+      ],
+      "body": "**DigIT** develops digital technologies for non-invasive, near-mine exploration of critical raw materials. Mining continually exposes geological information on pit walls and underground faces, but time and current methods mean most of it is lost. DigIT captures that information quickly and feeds it into deposit-scale exploration, so discoveries can sit next to active or historic mines where infrastructure already exists and social and environmental constraints are often easier to meet.\n\nThe work has four strands: safe, objective mapping of mining areas by combining digital outcrops with visible–SWIR and long-wave infrared hyperspectral imaging (including underground workflows); self-updating geological models that absorb new mine-face data; physical-chemical simulation of ore-forming processes to derive exploration targets; and data standards that keep mapping archives interoperable and reusable. HIF leads hyperspectral mapping, geometallurgical upscaling and neural-field 3-D models; Terranigma extends LiquidEarth for immersive mapping and real-time model updates.\n\nThe methods are demonstrated in the Sn–(Li)–W-rich Ore Mountains (Erzgebirge) and the Cu-rich Iberian Pyrite Belt. Project site: [digital-exploration.de](https://digital-exploration.de/).",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "restore",
+      "kind": "projects",
+      "title": "RESTORE",
+      "years": "2025–2029",
+      "funding": "Horizon Europe",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "ABB",
+        "ACCUREC-Recycling",
+        "Chalmers Technical University",
+        "D-LYTE Chemicals",
+        "Eco Recycling",
+        "E-LYTE Innovations",
+        "Fraunhofer",
+        "HZDR-HIF",
+        "Indumetal Recycling",
+        "PNO Innovation",
+        "SK tes",
+        "Solvay",
+        "Toratecnica",
+        "University of Agder",
+        "Vianode",
+        "Vito"
+      ],
+      "body": "European initiative focused on an integrated and scalable battery recycling process for end-of-life electric-vehicle and domestic batteries, including sensor-based in-line monitoring of black-mass beneficiation.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "regiorec",
+      "kind": "projects",
+      "title": "RegioREC",
+      "years": "2025–2028",
+      "funding": "BMFTR RUBIN programme",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "Becker Umweltdienste",
+        "DAS",
+        "DKS",
+        "ERZLABOR",
+        "Fluorchemie",
+        "LioFit",
+        "Mercedes-Benz Energy",
+        "META",
+        "NOVUM",
+        "REELEMENTS",
+        "tecVenture",
+        "TRICERA",
+        "ULT",
+        "Viimagic",
+        "HZDR-HIF",
+        "Fraunhofer IKTS",
+        "TU Bergakademie Freiberg"
+      ],
+      "body": "Recycling and second use of Li-ion batteries — development of sensor-based logistics for in-line battery identification and digitalisation.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "mosmin",
+      "kind": "projects",
+      "title": "MOSMIN",
+      "image": "cover.png",
+      "years": "2024–2027",
+      "funding": "HORIZON-EUSPA Innovation Action — Multiscale Observation of Operations in Mines",
+      "research": [
+        "autonomous-platforms",
+        "pointcloud",
+        "outcrop-mapping",
+        "remote-monitoring"
+      ],
+      "partners": [
+        "Helmholtz-Zentrum Dresden-Rossendorf (HZDR-HIF)",
+        "Nordic Strategy Partners AB",
+        "Centre Tecnològic de Telecomunicacions de Catalunya (CTTC)",
+        "GeoForschungsZentrum Potsdam (GFZ)",
+        "Babes-Bolyai University (BBU)",
+        "TheiaX GmbH",
+        "GeoKinesia",
+        "Boliden Mineral AB"
+      ],
+      "body": "Holistic full-site services for geotechnical and environmental monitoring and valorisation of mining-related deposits, using Earth observation and in situ geophysics. Copernicus supports deformation and surface-composition mapping; UAV and in situ sensors, machine-learning fusion and resolution enhancement, and distributed fibre-optic sensing address the subsurface.\n\nGoals include greener EO tools, lower environmental and safety risk, EU resilience via secondary critical raw materials, and ESG transparency. Project site: [mosmin.eu](https://www.mosmin.eu/).\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)\n\n![Figure 2](fig-03.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png",
+        "fig-03.png"
+      ]
+    },
+    {
+      "slug": "car2car",
+      "kind": "projects",
+      "title": "Car2Car",
+      "years": "2023–2025",
+      "funding": "BMWK — new automotive and system technologies",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "BMW AG",
+        "Salzgitter Mannesmann Forschung GmbH",
+        "Scholz Recycling GmbH",
+        "Steinert UniSort GmbH",
+        "ThyssenKrupp Steel Europe AG",
+        "HZDR-HIF",
+        "TUBAF-MVTAT",
+        "TU Munich (FML, IWB, CE)"
+      ],
+      "body": "Automated solutions for robust, real-time identification of car recycling products, with a focus on advanced type discrimination for steel and aluminium in complex material mixes using hyperspectral imaging and LIBS-based validation.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "finest",
+      "kind": "projects",
+      "title": "FINEST — Finest Mineral Additives",
+      "years": "2022–2027",
+      "funding": "Helmholtz Sustainability Challenge core project",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "HZDR-HIF",
+        "KIT",
+        "UFZ",
+        "HZB",
+        "TUBAF",
+        "University of Greifswald"
+      ],
+      "body": "Development of optical sensor solutions for mineral additives in polymers used in building insulation material (ETICS).",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "autotarget",
+      "kind": "projects",
+      "title": "AutoTarget",
+      "years": "2022–2025",
+      "funding": "CASUS Open Project",
+      "research": [
+        "autonomous-platforms",
+        "learning"
+      ],
+      "partners": [
+        "Helmholtz-Zentrum Dresden-Rossendorf (HZDR-HIF)",
+        "Center for Advanced System Understanding (CASUS)",
+        "Karlsruhe Institute of Technology (KIT-IIIT)"
+      ],
+      "body": "Autonomous, task-distributed drone network for isolated remote targets. HIF leads drone design, spectral imaging and machine learning; KIT-IIIT contributes sensor fusion, navigation, communications and automated decisions; CASUS contributes machine learning and real-time anomaly detection.\n\nOpen software: [github.com/hifexplo/autotarget](https://github.com/hifexplo/autotarget).",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "hyperuav-1",
+      "kind": "projects",
+      "title": "HyperUAV-1",
+      "image": "cover.png",
+      "years": "2022–2025",
+      "funding": "CASUS Open Project",
+      "research": [
+        "autonomous-platforms",
+        "learning"
+      ],
+      "partners": [
+        "Helmholtz-Zentrum Dresden-Rossendorf (HZDR-HIF)",
+        "Center for Advanced System Understanding (CASUS)",
+        "Helmholtz-Zentrum für Umweltforschung (UFZ)"
+      ],
+      "body": "UAVs bridge ground versus airborne and satellite hyperspectral imaging. This CASUS Open Project develops methods to integrate and extrapolate across scales for mineral exploration and ecological parameter estimation: characterise spectral variations from ground to satellite, quantify linear and non-linear mixing with ground-sample distance, and explore super-resolution and generative enhancement.\n\nSee also the project page [HyperUAV](https://www.iexplo.space/hyperuav).\n\n![Cover](fig-01.png)",
+      "images": [
+        "cover.png",
+        "fig-01.png"
+      ]
+    },
+    {
+      "slug": "hyperuav-2",
+      "kind": "projects",
+      "title": "HyperUAV-2",
+      "image": "cover.png",
+      "years": "2022–2025",
+      "funding": "CASUS Open Project",
+      "research": [
+        "autonomous-platforms",
+        "learning"
+      ],
+      "partners": [
+        "Helmholtz-Zentrum für Umweltforschung (UFZ)",
+        "Center for Advanced System Understanding (CASUS)",
+        "Helmholtz-Zentrum Dresden-Rossendorf (HZDR-HIF)"
+      ],
+      "body": "Scaling hyperspectral data to meaningfully quantify essential ecosystem variables. The project uses methods from HyperUAV-1 to develop data-driven models that bridge ground, UAV and satellite-scale hyperspectral observations.",
+      "images": [
+        "cover.png"
+      ]
+    },
+    {
+      "slug": "vector",
+      "kind": "projects",
+      "title": "VECTOR",
+      "years": "2022–2025",
+      "funding": "Horizon Europe",
+      "research": [
+        "outcrop-mapping"
+      ],
+      "partners": [
+        "HZDR-HIF",
+        "GFZ",
+        "University College Dublin / iCrag",
+        "Terranigma",
+        "Terranta",
+        "At Clave",
+        "Kupferschiefer Lausitz (KSL)",
+        "Group Eleven",
+        "EIT RawMaterials",
+        "Rio Sava",
+        "Foundation Institute for the Study of Change",
+        "Teck Ireland",
+        "Boliden Tara Mines",
+        "Natural History Museum London",
+        "Satarla",
+        "Sazani Associates",
+        "SRK Exploration Services"
+      ],
+      "body": "Horizon Europe project on social attitudes, environmental and technical challenges to mining in Europe, including hyperspectral drill-core scanning of Irish sedimentary basins.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "h2giga",
+      "kind": "projects",
+      "title": "H2GIGA / ReNaRe-AI4H2",
+      "years": "2021–2025",
+      "funding": "BMBF cluster project — recycling, sustainable resource use",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "KIT",
+        "Fraunhofer IPA",
+        "HZDR-HIF",
+        "RWTH-IME",
+        "TU Bergakademie Freiberg IKFVW",
+        "Nickelhütte Aue",
+        "Heraeus Deutschland",
+        "OEKO",
+        "DECHEMA",
+        "FZJ"
+      ],
+      "body": "Development of an efficient sensor combination for the rapid characterisation of electrolyser cells, and digitalisation of material composition for subsequent recycling decisions.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "digisort",
+      "kind": "projects",
+      "title": "DIGISORT",
+      "years": "2021–2023",
+      "funding": "BMBF cluster project — recycling / green batteries",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "HZDR-HIF",
+        "TU Bergakademie Freiberg (IAP, MVTAT)"
+      ],
+      "body": "Digitisation of mechanical separation (for example wind sifting of shredded Li-ion batteries). HIF records on-line particle size, shape and material properties of input and product streams with a multi-sensor setup on a conveyor, and consolidates method-specific data in real time. The approach is intended to transfer beyond Li-ion recycling.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "infradatrec",
+      "kind": "projects",
+      "title": "InfraDatRec",
+      "years": "2021–2023",
+      "funding": "BMBF infrastructure — Data Mining Lab Freiberg",
+      "research": [
+        "multisensor"
+      ],
+      "partners": [
+        "HZDR-HIF",
+        "TU Bergakademie Freiberg (IAP, ITC, MVTAT)",
+        "Fraunhofer IKTS",
+        "Fraunhofer IISB"
+      ],
+      "body": "Improvement of data availability in the field of battery materials and technologies, including infrastructure for in-line sensing (XRF, LIBS, robots, conveyor, GPU).",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "theiax",
+      "kind": "projects",
+      "title": "TheiaX",
+      "years": "2021–",
+      "funding": "Helmholtz Enterprise spin-off",
+      "research": [
+        "outcrop-mapping",
+        "mineral-mapping"
+      ],
+      "body": "TheiaX GmbH is a HIF/HZDR spin-off applying hyperspectral imaging and machine learning to exploration and mining. Incubation was via Helmholtz Enterprise, with early services through HZDR Innovation GmbH; the legal entity was founded in December 2021. Work includes tripod and drone HSI, drill-core HSI, and machine-learning data fusion.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "ramses-4-ce",
+      "kind": "projects",
+      "title": "RAMSES-4-CE",
+      "image": "cover.jpg",
+      "years": "2020–2024",
+      "funding": "EIT RawMaterials upscaling project",
+      "research": [
+        "multisensor",
+        "mineral-mapping",
+        "learning"
+      ],
+      "partners": [
+        "HZDR-HIF",
+        "TU Bergakademie Freiberg",
+        "Geological Survey of Finland (GTK)",
+        "Freiberg Instruments"
+      ],
+      "body": "The rapid identification of critical compounds is crucial for adequate sorting and the adapted recycling that will enable a circular economy. RAMSES-4-CE is a four-year upscaling project funded by EIT RawMaterials to bring latest research into technical solutions for the resource industry. The project innovates optical spectroscopy-based multi-sensor systems for the recycling industry.\n\nWe address this challenge by using a combination of imaging sensors to identify key chemical compounds in material streams. Hyperspectral (HSI) reflectance spectroscopy in the near- and mid-infrared can identify and classify certain alloys, ceramics, and plastics. Laser-induced fluorescence (LiF) spectroscopy enables the detection of rare-earth elements and low-reflective black plastics, among others. To increase the range of waste classes, we add a rapid, non-destructive Raman sensor, integrated into the existing LiF and HSI system developed during inSPECtor.\n\nData are processed and analysed immediately using machine learning, so that the fully integrated sensor network can operate in sequential component-mapping mode with immediate data fusion.\n\n![Cover](fig-01.png)\n\n![Figure 1](fig-02.png)\n\n![Figure 2](fig-03.jpg)\n\n![Figure 3](fig-04.png)\n\n![Figure 4](fig-05.png)\n\n![Figure 5](fig-06.jpg)\n\n![Figure 6](fig-07.jpg)\n\n![Figure 7](fig-08.jpg)\n\n![Figure 8](fig-09.png)\n\n![Figure 9](fig-10.png)\n\n![Figure 10](fig-11.jpg)",
+      "images": [
+        "cover.jpg",
+        "fig-02.png",
+        "fig-03.jpg",
+        "fig-04.png",
+        "fig-05.png",
+        "fig-06.jpg",
+        "fig-07.jpg",
+        "fig-08.jpg",
+        "fig-09.png",
+        "fig-10.png",
+        "fig-11.jpg"
+      ]
+    },
+    {
+      "slug": "inspector",
+      "kind": "projects",
+      "title": "inSPECtor",
+      "years": "2017–2020",
+      "funding": "EIT RawMaterials upscaling project",
+      "research": [
+        "multisensor",
+        "mineral-mapping"
+      ],
+      "partners": [
+        "HZDR-HIF",
+        "TU Bergakademie Freiberg",
+        "Geological Survey of Finland (GTK)",
+        "Freiberg Instruments GmbH",
+        "Spectral Imaging Ltd. (SPECIM)"
+      ],
+      "body": "Development of an integrated reflectance and laser-induced fluorescence sensor system for rare-earth element mapping in drill cores.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    },
+    {
+      "slug": "mulsedro",
+      "kind": "projects",
+      "title": "Mulsedro",
+      "years": "2017–2020",
+      "funding": "EIT RawMaterials upscaling project — multi-sensor drones for geology mapping",
+      "research": [
+        "autonomous-platforms",
+        "pointcloud",
+        "outcrop-mapping"
+      ],
+      "partners": [
+        "Geological Survey of Finland (GTK)",
+        "DMT GmbH & Co. KG",
+        "Geological Survey of Denmark and Greenland (GEUS)",
+        "Helmholtz-Zentrum Dresden-Rossendorf (HZDR-HIF)",
+        "LTU Business AB",
+        "Radai Oy"
+      ],
+      "body": "Development of two drone systems equipped with photogrammetry, magnetic, and hyperspectral sensors for exploration, mining-activity monitoring and post-mining rehabilitation.",
+      "images": [
+        "cover.png"
+      ],
+      "image": "cover.png"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "home",
+      "kind": "page",
+      "title": "Innovative Exploration",
+      "lede": "We develop new technologies and workflows for the fast, non-invasive and economic exploration of mineral resources.",
+      "image": "home-01.png",
+      "body": "We work at the Helmholtz Institute Freiberg for Resource Technology (HZDR-HIF) on multisensor integration, real-time resource characterisation, and autonomous mapping platforms."
+    }
+  ],
+  "tags": {
+    "paper": [
+      "2024-10-30-hyperspectral-drillcore",
+      "2024-10-28-intelligent-swarm",
+      "2024-02-01-battery-components",
+      "2024-01-30-pcb-vision",
+      "2024-01-23-underground-li",
+      "2023-12-19-multisensor-benchmark",
+      "2023-11-07-masking-hsi",
+      "2023-10-13-remote-sensing-geology",
+      "2023-08-23-multisensor-fusion",
+      "2023-08-10-earthquake-eews",
+      "2023-05-02-classification-of-uavs",
+      "2022-11-02-aeromagnetic-noise",
+      "2022-11-02-ambient-seismic",
+      "2022-11-02-deep-clustering",
+      "2022-11-02-disko-magnetic",
+      "2022-11-02-geyer-skarns",
+      "2022-11-02-ml-responsible-sourcing",
+      "2022-11-02-test-sites",
+      "2022-de-la-rosa-logging",
+      "2022-lorenz-black-angel",
+      "2022-shahi-ms2anet",
+      "2022-10-12-undip"
+    ],
+    "drillcore": [
+      "2024-10-30-hyperspectral-drillcore",
+      "2023-04-06-ireland-drillcore",
+      "2022-de-la-rosa-logging"
+    ],
+    "software": [
+      "2024-10-30-hyperspectral-drillcore",
+      "2024-10-28-intelligent-swarm",
+      "2024-10-28-ros-ide",
+      "2024-05-13-point-clouds",
+      "2024-03-26-autotarget-repo",
+      "2024-02-05-napari-hippo",
+      "2024-01-30-pcb-vision",
+      "2023-11-07-masking-hsi",
+      "2023-10-04-google-earth-on-steroids",
+      "2023-09-27-tensor-decompositions",
+      "2023-08-18-point-cloud-classification",
+      "2023-07-20-ros-framework",
+      "2023-06-30-moskito",
+      "2023-06-06-intelligent-agents",
+      "2023-04-26-explain-ml",
+      "2022-10-12-undip"
+    ],
+    "uav": [
+      "2024-10-28-intelligent-swarm",
+      "2024-10-28-ros-ide",
+      "2024-03-26-autotarget-repo",
+      "2024-03-26-hyperuav-page",
+      "2023-07-20-ros-framework",
+      "2023-06-30-moskito",
+      "2023-06-22-3d-printing-1",
+      "2023-06-22-3d-printing-2",
+      "2023-05-02-classification-of-uavs",
+      "2022-11-02-disko-magnetic"
+    ],
+    "recycling": [
+      "2024-02-01-battery-components"
+    ],
+    "dataset": [
+      "2024-01-30-pcb-vision",
+      "2023-12-19-multisensor-benchmark",
+      "2022-lorenz-black-angel"
+    ],
+    "fieldtrip": [
+      "2024-01-23-underground-li",
+      "2023-11-09-egu-2024",
+      "2023-07-10-theiax-prize",
+      "2023-04-06-ireland-drillcore",
+      "2023-01-24-helmholtz-imaging",
+      "2022-11-02-aeromagnetic-noise",
+      "2022-11-02-ambient-seismic",
+      "2022-11-02-disko-magnetic",
+      "2022-11-02-geyer-skarns"
+    ],
+    "outcrop": [
+      "2024-01-23-underground-li",
+      "2022-lorenz-black-angel"
+    ]
+  }
+}

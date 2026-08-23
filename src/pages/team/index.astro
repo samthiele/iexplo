@@ -1,0 +1,33 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { assetUrl, loadIndex } from '../../lib/content';
+
+const { people } = loadIndex();
+const base = import.meta.env.BASE_URL;
+---
+<Layout title="Team">
+  <section class="video-banner" aria-hidden="true">
+    <video autoplay muted loop playsinline>
+      <source src={`${base}videos/team-header.mp4`} type="video/mp4" />
+    </video>
+  </section>
+  <div class="wrap page">
+    <div class="team-intro">
+      <h1 class="page-title">Who we are</h1>
+      <p class="lede">Researchers and engineers at the Helmholtz Institute Freiberg for Resource Technology.</p>
+    </div>
+    <div class="people">
+      {people.map((person) => (
+        <a class="card" href={`${base}team/${person.slug}/`}>
+          <div class="pic">
+            {person.image ? <img src={assetUrl('people', person.slug, person.image)} alt="" /> : <div class="ph" />}
+          </div>
+          <div class="pad">
+            <h3>{person.title}</h3>
+            {person.role ? <p class="meta">{person.role}</p> : null}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

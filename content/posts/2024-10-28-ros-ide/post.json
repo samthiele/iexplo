@@ -1,0 +1,10 @@
+{
+  "title": "Integrated ROS development environment for UAV swarm programming",
+  "date": "2024-10-28",
+  "tags": [
+    "software",
+    "uav"
+  ],
+  "excerpt": "A Catkin-based IDE concept for building, simulating and deploying ROS/ROS2 UAV swarm software.",
+  "image": "cover.png"
+}

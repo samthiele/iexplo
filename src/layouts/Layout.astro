@@ -1,0 +1,109 @@
+---
+import '../styles/base.css';
+import '../styles/themes.css';
+
+const { title, description = 'Innovative Exploration — non-invasive technologies for mineral resource characterisation.' } = Astro.props;
+const pageTitle = title ? `${title} · iExplo` : 'Innovative Exploration';
+const base = import.meta.env.BASE_URL;
+const baseNorm = base.replace(/\/$/, '');
+const rawPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+const here = rawPath.startsWith(baseNorm) ? rawPath.slice(baseNorm.length) || '/' : rawPath;
+const links = [
+  ['/blog/', 'Blog'],
+  ['/research/', 'Research'],
+  ['/projects/', 'Projects'],
+  ['/team/', 'People'],
+  ['/publications/', 'Papers'],
+];
+
+function current(href: string) {
+  const path = href.replace(/\/$/, '') || '/';
+  return here === path || here.startsWith(`${path}/`);
+}
+
+const themes = [
+  ['editorial', 'Editorial'],
+  ['night', 'Night'],
+  ['hypercloud', 'Hypercloud'],
+];
+---
+<!doctype html>
+<html lang="en" data-theme="editorial">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem('iexplo-theme');
+          if (t === 'night' || t === 'hypercloud' || t === 'editorial') {
+            document.documentElement.setAttribute('data-theme', t);
+          }
+        } catch (e) {}
+        try {
+          if (sessionStorage.getItem('iexplo-spectrum')) {
+            document.documentElement.classList.add('spectrum-static');
+          } else {
+            sessionStorage.setItem('iexplo-spectrum', '1');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href={`${base}favicon.png`} />
+    <link rel="apple-touch-icon" href={`${base}logo.png`} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="brand" href={base}>
+          <img src={`${base}logo.png`} alt="" /> iExplo
+        </a>
+        <nav>
+          {links.map(([href, label]) => (
+            <a href={`${base}${href.replace(/^\//, '')}`} aria-current={current(href) ? 'page' : undefined}>{label}</a>
+          ))}
+        </nav>
+      </div>
+      <div class="spectrum" aria-hidden="true"></div>
+    </header>
+    <slot />
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>iExplo</span>
+        <a class="github" href="https://github.com/hifexplo/" rel="noreferrer">@hifexplo</a>
+      </div>
+    </footer>
+    <div class="switch">
+      <div class="wrap">
+        {themes.map(([id, label]) => (
+          <button type="button" data-set-theme={id}>{label}</button>
+        ))}
+      </div>
+    </div>
+    <script is:inline>
+      (function () {
+        var root = document.documentElement;
+        var buttons = document.querySelectorAll('[data-set-theme]');
+        function paint(theme) {
+          root.setAttribute('data-theme', theme);
+          buttons.forEach(function (btn) {
+            btn.classList.toggle('on', btn.getAttribute('data-set-theme') === theme);
+          });
+        }
+        paint(root.getAttribute('data-theme') || 'editorial');
+        buttons.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var theme = btn.getAttribute('data-set-theme');
+            try { localStorage.setItem('iexplo-theme', theme); } catch (e) {}
+            paint(theme);
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

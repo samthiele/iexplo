@@ -1,0 +1,1 @@
+Ambient seismic-noise tomography is a low-impact method to investigate Earth’s structure. A 400-station LARGE-N array and transdimensional hierarchical MCMC tomography yield 3-D shear-wave velocity to about 500 m, combined with TEM and nine unsupervised classes that place greisen in the granite roof of the Geyer–Ehrenfriedersdorf Sn–W–Zn–In–Bi–Li district.

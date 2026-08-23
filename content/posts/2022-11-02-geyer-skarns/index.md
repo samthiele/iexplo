@@ -1,0 +1,1 @@
+Magnetic data can be acquired from ground, drone or helicopter platforms with a variety of sensors. This study optimises survey parameters for thin, dipping skarns at Geyer in the Erzgebirge, using petrophysics and Variscan remanence. Ground and low drone surveys outperform aircraft SQUID FTMG for these targets.

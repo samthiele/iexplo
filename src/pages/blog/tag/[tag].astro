@@ -1,0 +1,35 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { assetUrl, formatDate, loadIndex } from '../../../lib/content';
+
+export function getStaticPaths() {
+  const { tags, posts } = loadIndex();
+  return Object.keys(tags).map((tag) => ({
+    params: { tag },
+    props: { tag, posts: posts.filter((p) => p.tags.includes(tag)) },
+  }));
+}
+
+const { tag, posts } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<Layout title={`#${tag}`}>
+  <div class="wrap page">
+    <h1 class="page-title">#{tag}</h1>
+    <p class="lede"><a class="more" href={`${base}blog/`}>All posts <span>→</span></a></p>
+    <div class="grid">
+      {posts.map((post) => (
+        <a class="card" href={`${base}blog/${post.slug}/`}>
+          <div class="pic">
+            {post.image ? <img src={assetUrl('posts', post.slug, post.image)} alt="" /> : <div class="ph" />}
+          </div>
+          <div class="pad">
+            <p class="tag">{formatDate(post.date)}</p>
+            <h3>{post.title}</h3>
+            {post.excerpt ? <p class="meta">{post.excerpt}</p> : null}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

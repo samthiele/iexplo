@@ -1,0 +1,9 @@
+{
+  "title": "Tensor decompositions for hyperspectral data processing",
+  "date": "2023-09-27",
+  "tags": [
+    "software"
+  ],
+  "excerpt": "Tucker, CP and tensor-train methods for reducing, denoising and unmixing HSI cubes.",
+  "image": "cover.jpg"
+}

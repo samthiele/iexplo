@@ -1,0 +1,1 @@
+As part of VECTOR we scanned about five kilometres of Irish sedimentary drill core — RGB, SWIR, MWIR and LWIR — in two weeks with Teck Ireland and Group Eleven. **Crunchy** ran near-real-time corrections on site.

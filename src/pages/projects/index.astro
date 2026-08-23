@@ -1,0 +1,27 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { assetUrl, loadIndex } from '../../lib/content';
+
+const { projects } = loadIndex();
+const base = import.meta.env.BASE_URL;
+---
+<Layout title="Projects">
+  <div class="wrap page">
+    <h1 class="page-title">Projects</h1>
+    <p class="lede">Collaborative research from drill-core sensing and recycling to drone swarms and mine-site monitoring.</p>
+    <div class="grid">
+      {projects.map((project) => (
+        <a class="card" href={`${base}projects/${project.slug}/`}>
+          <div class="pic">
+            {project.image ? <img src={assetUrl('projects', project.slug, project.image)} alt="" /> : <div class="ph" />}
+          </div>
+          <div class="pad">
+            <p class="tag">{project.years || 'Project'}</p>
+            <h3>{project.title}</h3>
+            {project.funding ? <p class="meta">{project.funding}</p> : null}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

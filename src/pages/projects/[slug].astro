@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { assetUrl, loadIndex, renderMarkdown } from '../../lib/content';
+
+export function getStaticPaths() {
+  return loadIndex().projects.map((project) => ({ params: { slug: project.slug }, props: { project } }));
+}
+
+const { project } = Astro.props;
+const { research } = loadIndex();
+const topics = research.filter((t) => (project.research || []).includes(t.slug) || (t.projects || []).includes(project.slug));
+const base = import.meta.env.BASE_URL;
+---
+<Layout title={project.title} description={project.funding || project.title}>
+  <div class="wrap page">
+    <p class="kicker">{project.years || 'Project'}</p>
+    <h1 class="page-title">{project.title}</h1>
+    {project.funding ? <p class="lede">{project.funding}</p> : null}
+    {project.image ? <img class="hero-img" src={assetUrl('projects', project.slug, project.image)} alt="" /> : null}
+    <article class="prose" set:html={renderMarkdown(project.body, 'projects', project.slug)} />
+    {project.partners?.length ? (
+      <p class="meta"><strong>Partners:</strong> {project.partners.join(', ')}</p>
+    ) : null}
+    {topics.length ? (
+      <p class="meta">
+        Research:
+        {topics.map((t, i) => (
+          <>
+            {i > 0 ? ', ' : ' '}
+            <a href={`${base}research/${t.slug}/`}>{t.title}</a>
+          </>
+        ))}
+      </p>
+    ) : null}
+  </div>
+</Layout>

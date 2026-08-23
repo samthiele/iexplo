@@ -1,0 +1,1 @@
+A multi-parameter approach for recognising anthropogenic noise in aeromagnetic data collected over populated areas (Erzgebirge, Germany). Five detectors plus a sum are compared with the Keating method, using 2-D shape index, flight height and GIS verification.

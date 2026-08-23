@@ -1,0 +1,1 @@
+Digitisation and automation of the raw-material sector are required to meet Paris Agreement targets. This review covers machine learning for imaging sensors: platforms, corrections, workflows and open resources, including a geology map of Corta Atalaya derived from a random forest on a hypercloud.
