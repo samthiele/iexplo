@@ -2,7 +2,7 @@ import summarySkill from './iexplo-summary.md?raw';
 
 const GEMINI_STORAGE = 'iexplo-gemini-key';
 const GEMINI_URL =
-  'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
+  'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent';
 
 export const IEXPLO_SUMMARY_SKILL = summarySkill;
 
