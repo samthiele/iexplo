@@ -2,7 +2,9 @@
   "title": "Google Earth on steroids",
   "date": "2023-10-04",
   "tags": [
-    "software"
+    "software",
+    "satellite",
+    "machine-learning-ai"
   ],
   "excerpt": "Why hyperspectral satellites still lack a public, browseable Earth view.",
   "image": "cover.png"

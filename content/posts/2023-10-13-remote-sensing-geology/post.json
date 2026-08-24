@@ -2,11 +2,12 @@
   "title": "Remote sensing geology",
   "date": "2023-10-13",
   "tags": [
-    "paper"
+    "paper",
+    "satellite"
   ],
   "excerpt": "A concise encyclopaedia chapter on sensors, platforms, processing and geological applications of remote sensing.",
   "authors": [
-    "René Booysen",
+    "Ren\u00e9 Booysen",
     "Richard Gloaguen",
     "Sandra Lorenz",
     "Robert Zimmermann",

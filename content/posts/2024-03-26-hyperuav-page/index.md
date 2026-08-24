@@ -1,1 +1,1 @@
-HyperUAV now has its own project page, covering scale effects, spectral mixing and generative enhancement of hyperspectral data from ground to satellite.
+Check it out here: [https://www.iexplo.space/hyperuav](https://www.iexplo.space/hyperuav) !

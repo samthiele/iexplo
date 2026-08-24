@@ -197,8 +197,8 @@ h2 { font-size: 1.5rem; font-weight: 650; letter-spacing: -0.02em; margin: 0 0 1
 .hero-img {
   width: 100%;
   max-width: 44rem;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   margin: 0 0 1.5rem;
   background: var(--paper-2);
 }

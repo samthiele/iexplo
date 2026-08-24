@@ -1,15 +1,16 @@
 {
-  "title": "Towards a generalised processing of hyperspectral data — part 1",
+  "title": "Towards a generalised processing of hyperspectral data \u2014 part 1",
   "date": "2023-11-07",
   "tags": [
     "paper",
-    "software"
+    "software",
+    "machine-learning-ai"
   ],
   "excerpt": "Masking hyperspectral cubes with SAM and Grounding DINO so only regions of interest remain.",
   "doi": "10.48550/arXiv.2311.03053",
   "authors": [
     "Elias Arbash",
-    "Andréa de Lima Ribeiro",
+    "Andr\u00e9a de Lima Ribeiro",
     "Sam Thiele",
     "Nina Gnann",
     "Behnood Rasti",

@@ -1,12 +1,13 @@
 {
-  "title": "Towards a generalised processing of hyperspectral data — part 2",
+  "title": "Towards a generalised processing of hyperspectral data \u2014 part 2",
   "date": "2024-01-30",
   "tags": [
     "paper",
     "dataset",
-    "software"
+    "software",
+    "machine-learning-ai"
   ],
-  "excerpt": "PCB-Vision: an open RGB–hyperspectral benchmark of printed circuit boards.",
+  "excerpt": "PCB-Vision: an open RGB\u2013hyperspectral benchmark of printed circuit boards.",
   "doi": "10.14278/rodare.2704",
   "authors": [
     "Elias Arbash"

@@ -2,7 +2,9 @@
   "title": "Unsupervised data fusion with a deeper perspective",
   "date": "2022-11-02",
   "tags": [
-    "paper"
+    "paper",
+    "machine-learning-ai",
+    "satellite"
   ],
   "excerpt": "A multisensor deep-clustering algorithm combining spectral and spatial autoencoders.",
   "image": "cover.jpg"

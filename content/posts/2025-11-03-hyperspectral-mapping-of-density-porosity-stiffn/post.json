@@ -11,15 +11,16 @@
   "doi": "10.5194/se-16-1249-2025",
   "authors": [
     "Samuel T. Thiele",
-    "Gábor Kereszturi",
+    "G\u00e1bor Kereszturi",
     "Michael J. Heap",
-    "Andréa de Lima Ribeiro",
+    "Andr\u00e9a de Lima Ribeiro",
     "Akshay Kamath",
     "Maia Kidd",
-    "Matías Tramontini",
-    "Marina Rosas‐Carbajal",
+    "Mat\u00edas Tramontini",
+    "Marina Rosas\u2010Carbajal",
     "Richard Gloaguen"
   ],
   "journal": "Solid Earth",
-  "year": 2025
+  "year": 2025,
+  "image": "cover.png"
 }

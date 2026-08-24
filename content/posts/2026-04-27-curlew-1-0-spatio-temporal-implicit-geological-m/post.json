@@ -14,11 +14,12 @@
     "Samuel T. Thiele",
     "Marie Moulard",
     "Lachlan Grose",
-    "Raimon Tolosana‐Delgado",
+    "Raimon Tolosana\u2010Delgado",
     "M. J. Hillier",
     "Florian Wellmann",
     "Richard Gloaguen"
   ],
   "journal": "Geoscientific model development",
-  "year": 2026
+  "year": 2026,
+  "image": "cover.png"
 }

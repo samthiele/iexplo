@@ -1,0 +1,75 @@
+---
+import '../styles/base.css';
+import '../styles/themes.css';
+import '../styles/admin.css';
+
+const { title = 'Content editor' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const pageTitle = `${title} · iExplo`;
+const connect = [
+  "'self'",
+  'https://api.github.com',
+  'https://generativelanguage.googleapis.com',
+  'https://api.openalex.org',
+  'https://api.crossref.org',
+  'https://pub.orcid.org',
+];
+if (import.meta.env.DEV) connect.push('ws:', 'wss:');
+const csp = [
+  "default-src 'self'",
+  "script-src 'self' 'unsafe-inline'",
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+  "font-src 'self' https://fonts.gstatic.com",
+  "img-src 'self' data: blob: https:",
+  `connect-src ${connect.join(' ')}`,
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "frame-ancestors 'none'",
+].join('; ');
+---
+<!doctype html>
+<html lang="en" data-theme="editorial">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="Content-Security-Policy" content={csp} />
+    <meta name="description" content="Unlisted content editor for iExplo." />
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem('iexplo-theme');
+          if (t === 'night' || t === 'hypercloud' || t === 'editorial') {
+            document.documentElement.setAttribute('data-theme', t);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href={`${base}favicon.png`} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <a class="brand" href={base}>
+          <img src={`${base}logo.png`} alt="" /> iExplo
+        </a>
+        <nav>
+          <a href={`${base}admin/`} aria-current="page">Editor</a>
+        </nav>
+      </div>
+      <div class="spectrum" aria-hidden="true"></div>
+    </header>
+    <slot />
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>Unlisted editor — not linked from the public site</span>
+        <a class="github" href="https://github.com/samthiele/iexplo" rel="noreferrer">samthiele/iexplo</a>
+      </div>
+    </footer>
+  </body>
+</html>

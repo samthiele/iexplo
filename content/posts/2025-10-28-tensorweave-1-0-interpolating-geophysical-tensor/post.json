@@ -13,10 +13,11 @@
     "Samuel T. Thiele",
     "Hernan Ugalde",
     "Bill Morris",
-    "Raimon Tolosana‐Delgado",
+    "Raimon Tolosana\u2010Delgado",
     "Moritz Kirsch",
     "Richard Gloaguen"
   ],
   "journal": "Geoscientific model development",
-  "year": 2025
+  "year": 2025,
+  "image": "cover.png"
 }

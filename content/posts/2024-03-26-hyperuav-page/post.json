@@ -2,7 +2,8 @@
   "title": "New webpage for the HyperUAV project",
   "date": "2024-03-26",
   "tags": [
-    "uav"
+    "uav",
+    "satellite"
   ],
   "excerpt": "A dedicated page for scaling hyperspectral UAV data to satellite extents.",
   "image": "cover.png"

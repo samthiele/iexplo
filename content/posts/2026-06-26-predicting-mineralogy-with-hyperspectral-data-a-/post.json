@@ -13,14 +13,15 @@
     "Samuel T. Thiele",
     "Moritz Kirsch",
     "Max Frenzel",
-    "Raimon Tolosana‐Delgado",
+    "Raimon Tolosana\u2010Delgado",
     "Akshay Kamath",
     "Bradley M. Guy",
     "Yonghwi Kim",
-    "Laura Tuşa",
-    "Tom Járóka",
+    "Laura Tu\u015fa",
+    "Tom J\u00e1r\u00f3ka",
     "Richard Gloaguen"
   ],
   "journal": "Minerals",
-  "year": 2026
+  "year": 2026,
+  "image": "cover.png"
 }

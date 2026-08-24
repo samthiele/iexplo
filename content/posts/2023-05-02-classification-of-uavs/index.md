@@ -1,5 +1,5 @@
-Take a look at the summary of Wilfried Hamilton and colleagues' paper on autonomous multi-UAV systems.
+Take a look at the summary of Wilfried Hamilton and Co's new paper.
 
-Uncrewed aerial vehicles are now ubiquitous, with use cases from governmental applications to agriculture, medicine and transport. Depending on demand, missions can involve several types of UAV and a range of onboard sensors.
+Uncrewed aerial vehicles (UAVs), also known as drones, are ubiquitous and their use cases extend today from governmental applications to civil applications such as the agricultural, medical, and transport sectors, etc. In accordance with the requirements in terms of demand, it is possible to carry out various missions involving several types of UAVs as well as various onboard sensors.
 
-Full article: [Drones 7(4):263](https://www.mdpi.com/2504-446X/7/4/263)
+Read the full article here: [https://www.mdpi.com/2504-446X/7/4/263](https://www.mdpi.com/2504-446X/7/4/263)

@@ -2,7 +2,9 @@
   "title": "An easy explanation of 3D point clouds and applications",
   "date": "2024-05-13",
   "tags": [
-    "software"
+    "software",
+    "point-clouds",
+    "3d-modelling"
   ],
   "excerpt": "What point clouds are, how they differ from LiDAR, and where they are used.",
   "image": "cover.png"

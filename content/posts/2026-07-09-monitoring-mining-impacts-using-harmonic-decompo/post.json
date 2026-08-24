@@ -15,8 +15,9 @@
     "Farid Djeddaoui",
     "Weikang Yu",
     "Richard Gloaguen",
-    "Raimon Tolosana‐Delgado"
+    "Raimon Tolosana\u2010Delgado"
   ],
   "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
-  "year": 2026
+  "year": 2026,
+  "image": "cover.jpg"
 }

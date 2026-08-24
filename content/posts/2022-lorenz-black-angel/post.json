@@ -3,9 +3,12 @@
   "tags": [
     "paper",
     "dataset",
-    "outcrop"
+    "outcrop",
+    "3d-modelling",
+    "point-clouds",
+    "machine-learning-ai"
   ],
-  "excerpt": "Open km-scale hyperspectral data of Zn–Pb mineralisation at Black Angel Mountain, Greenland.",
+  "excerpt": "Open km-scale hyperspectral data of Zn\u2013Pb mineralisation at Black Angel Mountain, Greenland.",
   "doi": "10.3390/data7080104",
   "selected": true,
   "image": "cover.png"

@@ -1,7 +1,13 @@
 {
   "date": "2022-11-02",
-  "tags": ["paper", "drillcore"],
+  "tags": [
+    "paper",
+    "drillcore",
+    "spectral-library",
+    "machine-learning-ai"
+  ],
   "excerpt": "Automated multi-scale and multivariate geological logging from drill-core hyperspectral data.",
   "doi": "10.3390/rs14112676",
-  "selected": true
+  "selected": true,
+  "image": "cover.png"
 }

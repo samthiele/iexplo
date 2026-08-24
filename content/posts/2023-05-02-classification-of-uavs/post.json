@@ -2,7 +2,8 @@
   "date": "2023-05-02",
   "tags": [
     "paper",
-    "uav"
+    "uav",
+    "machine-learning-ai"
   ],
   "excerpt": "A review of autonomous multi-UAV systems for target detection in distributed environments.",
   "doi": "10.3390/drones7040263",

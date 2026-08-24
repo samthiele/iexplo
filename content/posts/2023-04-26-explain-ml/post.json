@@ -2,7 +2,8 @@
   "title": "Explain your machine-learning model: the why and the how",
   "date": "2023-04-26",
   "tags": [
-    "software"
+    "software",
+    "machine-learning-ai"
   ],
   "excerpt": "SHAP, LIME and related XAI methods for high-stakes remote-sensing models.",
   "image": "cover.jpg"
