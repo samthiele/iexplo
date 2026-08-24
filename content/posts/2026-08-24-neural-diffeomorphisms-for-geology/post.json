@@ -1,0 +1,13 @@
+{
+  "title": "Neural diffeomorphisms for geology",
+  "date": "2026-08-24",
+  "tags": [
+    "diffeormorphism",
+    "euler-potentials",
+    "geology"
+  ],
+  "excerpt": "We developed a new method for building 3D structural geological models using neural diffeomorphisms to represent complex geological transformations.",
+  "authors": [
+    "Akshay Kamath"
+  ]
+}
