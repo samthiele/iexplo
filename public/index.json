@@ -1,6 +1,289 @@
 {
-  "generatedAt": "2026-08-24T09:40:11.724Z",
+  "generatedAt": "2026-08-24T10:58:58.209Z",
   "posts": [
+    {
+      "slug": "2026-07-21-label-efficient-3d-forest-mapping-self-supervise",
+      "kind": "post",
+      "title": "Label-efficient 3D forest mapping: Self-supervised and transfer learning for instance segmentation, semantic segmentation, and species classification",
+      "date": "2026-07-21",
+      "excerpt": "We developed a label-efficient deep learning framework for 3D forest mapping, using self-supervised and transfer learning to improve individual tree segmentation and species classification from laser scanning point clouds",
+      "tags": [
+        "paper",
+        "machine-learning-ai",
+        "point-clouds"
+      ],
+      "authors": [
+        "Aldino Rizaldy",
+        "Fabian Ewald Fassnacht",
+        "Ahmed J. Afifi",
+        "Hua Jiang",
+        "Richard Gloaguen",
+        "Pedram Ghamisi"
+      ],
+      "doi": "10.1016/j.rse.2026.115564",
+      "paper": {
+        "title": "Label-efficient 3D forest mapping: Self-supervised and transfer learning for instance segmentation, semantic segmentation, and species classification",
+        "authors": [
+          "Aldino Rizaldy",
+          "Fabian Ewald Fassnacht",
+          "Ahmed J. Afifi",
+          "Hua Jiang",
+          "Richard Gloaguen",
+          "Pedram Ghamisi"
+        ],
+        "journal": "Remote Sensing of Environment",
+        "year": 2026,
+        "date": "2026-07-21",
+        "doi": "10.1016/j.rse.2026.115564",
+        "url": "https://doi.org/10.1016/j.rse.2026.115564",
+        "type": "",
+        "source": "local"
+      },
+      "selected": false,
+      "body": "Mapping individual trees for precision forestry, biodiversity, and carbon assessment requires detailed 3D structural and species information, typically derived from laser scanning point clouds. While deep learning offers advanced capabilities for segmenting and classifying trees, it demands extensive, labour-intensive annotated training data. To address this, we explored self-supervised and transfer learning strategies to significantly reduce the need for large datasets.\n\nOur label-efficient approach improved performance across instance segmentation, semantic segmentation, and tree classification tasks. For instance, combining self-supervised learning with domain adaptation enhanced instance segmentation AP50 by 16.98%, and hierarchical transfer learning boosted tree classification mean Jaccard by 6.07%. This unified, open-source framework streamlines the extraction of individual tree information from point clouds, also reducing energy consumption and carbon emissions by 21%.\n\nFull article: [Remote Sensing of Environment](https://doi.org/10.1016/j.rse.2026.115564)",
+      "images": [],
+      "image": ""
+    },
+    {
+      "slug": "2026-07-09-monitoring-mining-impacts-using-harmonic-decompo",
+      "kind": "post",
+      "title": "Monitoring mining impacts using harmonic decomposition of time series vegetation indices",
+      "date": "2026-07-09",
+      "excerpt": "We developed a new method, Seasonal Harmonic Anomaly Break Analysis (SHABA), to monitor and quantify vegetation changes caused by mining operations using time series vegetation indices",
+      "tags": [
+        "paper",
+        "satellite",
+        "machine-learning-ai"
+      ],
+      "authors": [
+        "Vincent E. Nwazelibe",
+        "Moritz Kirsch",
+        "Samuel T. Thiele",
+        "Farid Djeddaoui",
+        "Weikang Yu",
+        "Richard Gloaguen",
+        "Raimon Tolosana‐Delgado"
+      ],
+      "doi": "10.1016/j.isprsjprs.2026.07.001",
+      "paper": {
+        "title": "Monitoring mining impacts using harmonic decomposition of time series vegetation indices",
+        "authors": [
+          "Vincent E. Nwazelibe",
+          "Moritz Kirsch",
+          "Samuel T. Thiele",
+          "Farid Djeddaoui",
+          "Weikang Yu",
+          "Richard Gloaguen",
+          "Raimon Tolosana‐Delgado"
+        ],
+        "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+        "year": 2026,
+        "date": "2026-07-09",
+        "doi": "10.1016/j.isprsjprs.2026.07.001",
+        "url": "https://doi.org/10.1016/j.isprsjprs.2026.07.001",
+        "type": "",
+        "source": "local"
+      },
+      "selected": false,
+      "body": "Global mining operations cause significant vegetation disturbance, but their cumulative impact over time is often difficult to quantify remotely. We developed Seasonal Harmonic Anomaly Break Analysis (SHABA), a new breakpoint detection approach, to integrate vegetation index time series and identify both abrupt and subtle vegetation changes associated with mining activities.\n\nWe demonstrated the potential of SHABA by applying it to six geographically distributed mine sites: Cardinal River, Roșia Poieni, Trident, Carajás, Vametco, and Worsley. The resulting breakpoints accurately quantify cumulative changes associated with mine expansion and rehabilitation efforts, and indicate where secondary changes in surrounding areas might occur.\n\nWe found varied and complex mine footprint trajectories, with primary footprints showing both stepwise vegetation clearing and early regrowth consistent with rehabilitation. Secondary changes outside the direct mine footprint varied widely but were temporally correlated with mine expansion. We suggest the SHABA workflow could provide a robust approach for automated, global-scale quantification of changes in mine footprint over time, improving environmental accounting and stakeholder dialogue.\n\nFull article: [ISPRS Journal of Photogrammetry and Remote Sensing](https://doi.org/10.1016/j.isprsjprs.2026.07.001)",
+      "images": [],
+      "image": ""
+    },
+    {
+      "slug": "2026-06-26-predicting-mineralogy-with-hyperspectral-data-a-",
+      "kind": "post",
+      "title": "Predicting Mineralogy with Hyperspectral Data: A Benchmark Dataset and Machine Learning Framework to Enable Hyperspectral Geometallurgy",
+      "date": "2026-06-26",
+      "excerpt": "We developed and benchmarked workflows combining scanning electron microscope mineral maps with multimodal hyperspectral imaging data to predict mineralogy across entire drillcores using supervised machine learning",
+      "tags": [
+        "paper",
+        "drillcore",
+        "machine-learning-ai",
+        "dataset"
+      ],
+      "authors": [
+        "Samuel T. Thiele",
+        "Moritz Kirsch",
+        "Max Frenzel",
+        "Raimon Tolosana‐Delgado",
+        "Akshay Kamath",
+        "Bradley M. Guy",
+        "Yonghwi Kim",
+        "Laura Tuşa",
+        "Tom Járóka",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.3390/min16070674",
+      "paper": {
+        "title": "Predicting Mineralogy with Hyperspectral Data: A Benchmark Dataset and Machine Learning Framework to Enable Hyperspectral Geometallurgy",
+        "authors": [
+          "Samuel T. Thiele",
+          "Moritz Kirsch",
+          "Max Frenzel",
+          "Raimon Tolosana‐Delgado",
+          "Akshay Kamath",
+          "Bradley M. Guy",
+          "Yonghwi Kim",
+          "Laura Tuşa",
+          "Tom Járóka",
+          "Richard Gloaguen"
+        ],
+        "journal": "Minerals",
+        "year": 2026,
+        "date": "2026-06-26",
+        "doi": "10.3390/min16070674",
+        "url": "https://doi.org/10.3390/min16070674",
+        "type": "",
+        "source": "local"
+      },
+      "selected": false,
+      "body": "Mineralogical data from drillcores are crucial for resource estimation and geometallurgical modelling, but hyperspectral imaging struggles with accurate quantification without extensive calibration. We built on previous work to combine scanning electron microscope (SEM) mineral maps with large-extent multimodal hyperspectral imaging data. Our goal was to relate hyperspectral features to mineral abundances using supervised machine learning models, then apply these models to infer mineralogy across entire drillcores.\n\nWe adapted the learning process for the unbalanced composition of most rocks, achieving reasonable accuracy for common rock-forming minerals. However, prediction accuracy strongly depended on training data representativity, often failing for rare and accessory minerals. We suggest robust, adaptive sampling approaches to address this, and emphasise that upscaled predictions must always be validated. Once validated, these predictions can provide crucial quantitative data, bridging the scale gap between petrographic observations, metallurgical tests, and geometallurgical models.\n\nPaper: [https://doi.org/10.3390/min16070674](https://doi.org/10.3390/min16070674)",
+      "images": [],
+      "image": ""
+    },
+    {
+      "slug": "2026-04-27-curlew-1-0-spatio-temporal-implicit-geological-m",
+      "kind": "post",
+      "title": "Curlew 1.0: Spatio-temporal implicit geological modelling with neural fields in python",
+      "date": "2026-04-27",
+      "excerpt": "We introduce Curlew, an open-source Python package that uses neural fields for spatio-temporal implicit geological modelling",
+      "tags": [
+        "paper",
+        "3d-modelling",
+        "software",
+        "machine-learning-ai"
+      ],
+      "authors": [
+        "Akshay Kamath",
+        "Samuel T. Thiele",
+        "Marie Moulard",
+        "Lachlan Grose",
+        "Raimon Tolosana‐Delgado",
+        "M. J. Hillier",
+        "Florian Wellmann",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.5194/gmd-19-3455-2026",
+      "paper": {
+        "title": "Curlew 1.0: Spatio-temporal implicit geological modelling with neural fields in python",
+        "authors": [
+          "Akshay Kamath",
+          "Samuel T. Thiele",
+          "Marie Moulard",
+          "Lachlan Grose",
+          "Raimon Tolosana‐Delgado",
+          "M. J. Hillier",
+          "Florian Wellmann",
+          "Richard Gloaguen"
+        ],
+        "journal": "Geoscientific model development",
+        "year": 2026,
+        "date": "2026-04-27",
+        "doi": "10.5194/gmd-19-3455-2026",
+        "url": "https://doi.org/10.5194/gmd-19-3455-2026",
+        "type": "",
+        "source": "local"
+      },
+      "selected": false,
+      "body": "We developed Curlew, an open-source Python package for structural geological modelling using neural fields. This framework incorporates various local constraints and tailored global loss functions to ensure data-consistent and geologically realistic predictions. Random Fourier Feature (RFF) encodings are used to improve model convergence and facilitate stochastic uncertainty quantification, while also helping to learn naturally periodic features such as folds.\n\nCurlew allows incremental construction of complex geological models through temporally-linked neural fields, each representing a specific deposition, intrusion or faulting event. Significantly, this framework allows semi-supervised learning to integrate diverse unlabelled datasets, reducing interpretation bias and potentially improving model robustness. We demonstrate these capabilities using synthetic examples and real data from a faulted stratigraphic digital outcrop model from Newcastle, Australia.\n\nFull article: [Geoscientific Model Development](https://doi.org/10.5194/gmd-19-3455-2026)",
+      "images": [],
+      "image": ""
+    },
+    {
+      "slug": "2025-11-03-hyperspectral-mapping-of-density-porosity-stiffn",
+      "kind": "post",
+      "title": "Hyperspectral mapping of density, porosity, stiffness, and strength in hydrothermally altered volcanic rocks",
+      "date": "2025-11-03",
+      "excerpt": "We developed machine learning models that predict density, porosity, stiffness, and strength of volcanic rocks from their hyperspectral fingerprints, offering an efficient method for characterising large areas",
+      "tags": [
+        "paper",
+        "machine-learning-ai",
+        "spectral-library",
+        "outcrop"
+      ],
+      "authors": [
+        "Samuel T. Thiele",
+        "Gábor Kereszturi",
+        "Michael J. Heap",
+        "Andréa de Lima Ribeiro",
+        "Akshay Kamath",
+        "Maia Kidd",
+        "Matías Tramontini",
+        "Marina Rosas‐Carbajal",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.5194/se-16-1249-2025",
+      "paper": {
+        "title": "Hyperspectral mapping of density, porosity, stiffness, and strength in hydrothermally altered volcanic rocks",
+        "authors": [
+          "Samuel T. Thiele",
+          "Gábor Kereszturi",
+          "Michael J. Heap",
+          "Andréa de Lima Ribeiro",
+          "Akshay Kamath",
+          "Maia Kidd",
+          "Matías Tramontini",
+          "Marina Rosas‐Carbajal",
+          "Richard Gloaguen"
+        ],
+        "journal": "Solid Earth",
+        "year": 2025,
+        "date": "2025-11-03",
+        "doi": "10.5194/se-16-1249-2025",
+        "url": "https://doi.org/10.5194/se-16-1249-2025",
+        "type": "",
+        "source": "local"
+      },
+      "selected": false,
+      "body": "Volcanic rock masses are difficult to characterise due to their heterogeneous structures and the complex interplay of volcanic, hydrothermal, and geomorphological processes. We expanded on previous research by acquiring a unique dataset of visible-near (VNIR), shortwave (SWIR), midwave (MWIR), and longwave (LWIR) infrared reflectance from samples across eight basaltic to andesitic volcanoes.\n\nWe then trained several machine learning models to predict density, porosity, uniaxial compressive strength (UCS), and Young's modulus (E) from these spectral data. Non-linear models, particularly multilayer perceptrons (MLP), explained up to 80% of the variance in density and porosity, and 65–70% in UCS and E. Explainable AI analysis showed that VNIR-SWIR absorptions, attributable to hydrothermal alteration, and MWIR-LWIR features, sensitive to volcanic glass content and fabric, were the dominant contributors.\n\nThese results demonstrate that hyperspectral imaging can serve as a robust proxy for rock physical and mechanical properties, offering an efficient and scalable method for characterising large areas of exposed volcanic rock. Integrating these data with geomechanical models could significantly enhance hazard assessment, infrastructure development, and resource utilisation in volcanic regions.\n\nPaper: [Solid Earth](https://doi.org/10.5194/se-16-1249-2025)",
+      "images": [],
+      "image": ""
+    },
+    {
+      "slug": "2025-10-28-tensorweave-1-0-interpolating-geophysical-tensor",
+      "kind": "post",
+      "title": "Tensorweave 1.0: interpolating geophysical tensor fields with spatial neural networks",
+      "date": "2025-10-28",
+      "excerpt": "We developed Tensorweave 1.0, a physics-informed spatial neural network designed to accurately interpolate geophysical tensor fields, even from sparse or irregularly sampled data",
+      "tags": [
+        "paper",
+        "machine-learning-ai",
+        "3d-modelling"
+      ],
+      "authors": [
+        "Akshay Kamath",
+        "Samuel T. Thiele",
+        "Hernan Ugalde",
+        "Bill Morris",
+        "Raimon Tolosana‐Delgado",
+        "Moritz Kirsch",
+        "Richard Gloaguen"
+      ],
+      "doi": "10.5194/gmd-18-7951-2025",
+      "paper": {
+        "title": "Tensorweave 1.0: interpolating geophysical tensor fields with spatial neural networks",
+        "authors": [
+          "Akshay Kamath",
+          "Samuel T. Thiele",
+          "Hernan Ugalde",
+          "Bill Morris",
+          "Raimon Tolosana‐Delgado",
+          "Moritz Kirsch",
+          "Richard Gloaguen"
+        ],
+        "journal": "Geoscientific model development",
+        "year": 2025,
+        "date": "2025-10-28",
+        "doi": "10.5194/gmd-18-7951-2025",
+        "url": "https://doi.org/10.5194/gmd-18-7951-2025",
+        "type": "",
+        "source": "local"
+      },
+      "selected": false,
+      "body": "Geophysical tensor fields offer powerful insights into subsurface structures, but interpolating sparse or irregularly sampled measurements, such as full-tensor potential field gradiometry, is challenging. With colleagues, we developed Tensorweave 1.0, a physics-informed spatial neural network to address this.\n\nOur method treats tensors as derivatives of an underlying scalar field, enabling consistent, high-fidelity interpolation across the entire domain. By leveraging the differentiable nature of neural networks, Tensorweave 1.0 not only honours the physical constraints of potential fields but also reconstructs the scalar and vector fields that generate the observed tensors.\n\nWe demonstrated the approach on synthetic gravity gradiometry data and real full-tensor magnetic data from Geyer, Germany. Results showed significant improvements in interpolation accuracy, structural continuity, and uncertainty quantification compared to conventional methods.\n\nPaper: [https://doi.org/10.5194/gmd-18-7951-2025](https://doi.org/10.5194/gmd-18-7951-2025)",
+      "images": [],
+      "image": ""
+    },
     {
       "slug": "2024-10-30-hyperspectral-drillcore",
       "kind": "post",
@@ -2178,6 +2461,12 @@
   ],
   "tags": {
     "paper": [
+      "2026-07-21-label-efficient-3d-forest-mapping-self-supervise",
+      "2026-07-09-monitoring-mining-impacts-using-harmonic-decompo",
+      "2026-06-26-predicting-mineralogy-with-hyperspectral-data-a-",
+      "2026-04-27-curlew-1-0-spatio-temporal-implicit-geological-m",
+      "2025-11-03-hyperspectral-mapping-of-density-porosity-stiffn",
+      "2025-10-28-tensorweave-1-0-interpolating-geophysical-tensor",
       "2024-10-30-hyperspectral-drillcore",
       "2024-10-28-intelligent-swarm",
       "2024-02-01-battery-components",
@@ -2201,12 +2490,38 @@
       "2022-shahi-ms2anet",
       "2022-10-12-undip"
     ],
+    "machine-learning-ai": [
+      "2026-07-21-label-efficient-3d-forest-mapping-self-supervise",
+      "2026-07-09-monitoring-mining-impacts-using-harmonic-decompo",
+      "2026-06-26-predicting-mineralogy-with-hyperspectral-data-a-",
+      "2026-04-27-curlew-1-0-spatio-temporal-implicit-geological-m",
+      "2025-11-03-hyperspectral-mapping-of-density-porosity-stiffn",
+      "2025-10-28-tensorweave-1-0-interpolating-geophysical-tensor"
+    ],
+    "point-clouds": [
+      "2026-07-21-label-efficient-3d-forest-mapping-self-supervise"
+    ],
+    "satellite": [
+      "2026-07-09-monitoring-mining-impacts-using-harmonic-decompo"
+    ],
     "drillcore": [
+      "2026-06-26-predicting-mineralogy-with-hyperspectral-data-a-",
       "2024-10-30-hyperspectral-drillcore",
       "2023-04-06-ireland-drillcore",
       "2022-de-la-rosa-logging"
     ],
+    "dataset": [
+      "2026-06-26-predicting-mineralogy-with-hyperspectral-data-a-",
+      "2024-01-30-pcb-vision",
+      "2023-12-19-multisensor-benchmark",
+      "2022-lorenz-black-angel"
+    ],
+    "3d-modelling": [
+      "2026-04-27-curlew-1-0-spatio-temporal-implicit-geological-m",
+      "2025-10-28-tensorweave-1-0-interpolating-geophysical-tensor"
+    ],
     "software": [
+      "2026-04-27-curlew-1-0-spatio-temporal-implicit-geological-m",
       "2024-10-30-hyperspectral-drillcore",
       "2024-10-28-intelligent-swarm",
       "2024-10-28-ros-ide",
@@ -2224,6 +2539,14 @@
       "2023-04-26-explain-ml",
       "2022-10-12-undip"
     ],
+    "spectral-library": [
+      "2025-11-03-hyperspectral-mapping-of-density-porosity-stiffn"
+    ],
+    "outcrop": [
+      "2025-11-03-hyperspectral-mapping-of-density-porosity-stiffn",
+      "2024-01-23-underground-li",
+      "2022-lorenz-black-angel"
+    ],
     "uav": [
       "2024-10-28-intelligent-swarm",
       "2024-10-28-ros-ide",
@@ -2239,11 +2562,6 @@
     "recycling": [
       "2024-02-01-battery-components"
     ],
-    "dataset": [
-      "2024-01-30-pcb-vision",
-      "2023-12-19-multisensor-benchmark",
-      "2022-lorenz-black-angel"
-    ],
     "fieldtrip": [
       "2024-01-23-underground-li",
       "2023-11-09-egu-2024",
@@ -2254,10 +2572,6 @@
       "2022-11-02-ambient-seismic",
       "2022-11-02-disko-magnetic",
       "2022-11-02-geyer-skarns"
-    ],
-    "outcrop": [
-      "2024-01-23-underground-li",
-      "2022-lorenz-black-angel"
     ]
   }
 }
