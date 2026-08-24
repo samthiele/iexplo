@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:20:23.206Z",
+  "generatedAt": "2026-08-24T14:22:38.359Z",
   "posts": [
     {
       "slug": "2026-08-24-introducing-a-planet-sized-organic-supercomputer",
@@ -1877,6 +1877,18 @@
       "role": "Geologist",
       "order": 19,
       "body": "A geologist by training, I became interested in geological remote sensing for mineral exploration.",
+      "images": [
+        "photo.jpg"
+      ]
+    },
+    {
+      "slug": "andres-melo-giron",
+      "kind": "people",
+      "title": "Andrés Melo Girón",
+      "role": "Structural Geologist",
+      "order": 99,
+      "image": "photo.jpg",
+      "body": "As a structural geologist, Andrés Melo Giron specialises in deciphering the intricate architecture of geological formations. His research at iExplo / HZDR-HIF applies a multi-scale approach, from regional mapping to microstructural analysis, to understand rock deformation processes and their significance for subsurface exploration and resource characterisation.",
       "images": [
         "photo.jpg"
       ]
