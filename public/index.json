@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T14:30:18.912Z",
+  "generatedAt": "2026-08-24T14:33:26.553Z",
   "posts": [
     {
       "slug": "2026-08-24-introducing-a-planet-sized-organic-supercomputer",
@@ -344,7 +344,7 @@
     {
       "slug": "2024-10-30-hyperspectral-drillcore",
       "kind": "post",
-      "title": "2024-10-30-hyperspectral-drillcore",
+      "title": "Maximising the value of hyperspectral drill core scanning through real-time processing and analysis",
       "date": "2024-10-30",
       "excerpt": "Open-source real-time processing and analysis of hyperspectral drill-core data with crunchy and hycore.",
       "tags": [
@@ -352,18 +352,36 @@
         "drillcore",
         "software"
       ],
-      "authors": [],
+      "authors": [
+        "Samuel T. Thiele",
+        "Moritz Kirsch",
+        "Sandra Lorenz",
+        "Houda Saffi",
+        "Safia El Alami",
+        "Isabel Cecilia Contreras Acosta",
+        "Yuleika Madriz",
+        "Richard Gloaguen"
+      ],
       "doi": "10.3389/feart.2024.1433662",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "Maximising the value of hyperspectral drill core scanning through real-time processing and analysis",
+        "authors": [
+          "Samuel T. Thiele",
+          "Moritz Kirsch",
+          "Sandra Lorenz",
+          "Houda Saffi",
+          "Safia El Alami",
+          "Isabel Cecilia Contreras Acosta",
+          "Yuleika Madriz",
+          "Richard Gloaguen"
+        ],
+        "journal": "Frontiers in Earth Science",
+        "year": 2024,
         "date": "2024-10-30",
         "doi": "10.3389/feart.2024.1433662",
         "url": "https://doi.org/10.3389/feart.2024.1433662",
-        "type": "",
-        "source": ""
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": true,
       "body": "Check out our new paper on hyperspectral drillcore scanning! We present a new (open-source!) workflow for real-time processing and analysis of hyperspectral data, with a specific focus on its application to mineral exploration through drill core scanning.\n\nCurrent hyperspectral drillcore analysis methods typically involve a significant delay between data acquisition and analysis, which limits the value of these rich datasets in time-critical exploration decisions. To help address this, we have developed two software frameworks, \"[crunchy](https://github.com/hifexplo/crunchy)\" and \"[hycore](https://github.com/hifexplo/hycore)\". *Crunchy* facilitates real-time preprocessing, correction, and analysis of hyperspectral data, while *hycore* manages and stores the data in a consistent structure, enabling interactive visualization, analysis, and mosaicing.\n\nWe demonstrate the framework's capabilities using data from several sediment-hosted base metal deposits. The real-time results enabled rapid identification of key minerals, informed sampling strategies. We conclude that such real-time data could greatly inform geological logging activities and help ensure maximum information is extracted from valuable drillcores, in a reproducible and objective way.\n\nFind out more in the full article: [https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2024.1433662/full](https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2024.1433662/full)\n\nAlso check out some of the results ihere:\n\n[https://www.hzdr.de/FWG/FWGE/Spremberg_html/index.html](https://www.hzdr.de/FWG/FWGE/Spremberg_html/index.html)\n\nFigure: Augmented reality visualisation of realtime processed hyperspectral drillcore scanner data.",
@@ -375,7 +393,7 @@
     {
       "slug": "2024-10-28-intelligent-swarm",
       "kind": "post",
-      "title": "2024-10-28-intelligent-swarm",
+      "title": "Intelligent Swarm: Concept, Design and Validation of Self-Organized UAVs Based on Leader–Followers Paradigm for Autonomous Mission Planning",
       "date": "2024-10-28",
       "excerpt": "A leader–followers swarm concept for self-organised UAV mission planning.",
       "tags": [
@@ -384,18 +402,34 @@
         "software",
         "machine-learning-ai"
       ],
-      "authors": [],
+      "authors": [
+        "Wilfried Yves Hamilton Adoni",
+        "Junaidh Shaik Fareedh",
+        "Sandra Lorenz",
+        "Richard Gloaguen",
+        "Yuleika Madriz",
+        "Aastha Singh",
+        "Thomas D. Kühne"
+      ],
       "doi": "10.3390/drones8100575",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "Intelligent Swarm: Concept, Design and Validation of Self-Organized UAVs Based on Leader–Followers Paradigm for Autonomous Mission Planning",
+        "authors": [
+          "Wilfried Yves Hamilton Adoni",
+          "Junaidh Shaik Fareedh",
+          "Sandra Lorenz",
+          "Richard Gloaguen",
+          "Yuleika Madriz",
+          "Aastha Singh",
+          "Thomas D. Kühne"
+        ],
+        "journal": "Drones",
+        "year": 2024,
         "date": "2024-10-28",
         "doi": "10.3390/drones8100575",
         "url": "https://doi.org/10.3390/drones8100575",
-        "type": "",
-        "source": ""
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": true,
       "body": "A team of researchers from Helmholtz-Zentrum Dresden-Rossendorf e.V (HZDR) has introduced a cutting-edge concept in the field of autonomous aerial systems with their latest paper, **\"**Intelligent Swarm: Concept, Design and Validation of Self-Organized UAVs Based on Leader–Followers Paradigm for Autonomous Mission Planning**\".** This new approach promises to improve autonomous mission planning through innovative swarm intelligence.\n\nsource[:](http://sourcejournalclub.io) MDPI Drones\n\nKey Highlights of the Concept:\n\nLeader–Follower Paradigm:** The study proposes an innovative framework for organizing UAV swarms through the designation of a central ‘leader’ drone, which guides ‘follower’ drones. This technique enhances coordination, situational adaptability, and robustness of the UAV group.\n\nSelf-Organized Coordination:** The Intelligent Swarm framework emphasizes self-organization, enabling UAVs to make collective decisions dynamically and autonomously based on environmental inputs and mission requirements.\n\nEnhanced Autonomous Mission Planning:** By leveraging a decentralized control architecture, the model reduces communication overhead while improving mission reliability and resilience to potential leader failures.\n\nReal-World Validation:** The study demonstrates real-world testing of the model in complex mission scenarios, showing superior efficiency in obstacle avoidance, target acquisition, and cooperative maneuvers.\n\nThis fairly idea is described with a little animation in the video below ! Click on the video below to play. 👇👇👇\n\nsource[:](http://sourcejournalclub.io) [journalclub.io](http://journalclub.io)\n\nApplication for the Industry:\n\nThe Intelligent Swarm framework takes UAV autonomy to a new level by combining swarm intelligence and self-organized control. This model is designed to address the increasing need for efficient, scalable, and resilient UAV operations in real-time mission environments. The innovative approach outlined in the paper provides potential applications in sectors such as disaster response, search and rescue operations, environmental monitoring, logistic, delivery and reconnaissance. By enhancing autonomous decision-making and collective behavior in UAV systems, this research opens new frontiers for the future of multi-robot missions.\n\nAbout the Authors:** **The study was conducted in close collaboration between Center for Advanced Systems Understanding (HZDR-CASUS) and Helmholtz Institute Freiberg for Resource Technology (HZDR-HIF):\n\nDr. [Richard Gloaguen](https://www.linkedin.com/in/richard-gloaguen-ab913b5/) | Dr. [Sandra Lorenz](https://www.linkedin.com/in/sandra-lorenz-069006118/) | Pr. Dr. [Thomas D. Kühne](https://www.linkedin.com/in/thomas-d-k%C3%BChne-0938066/): Project Leading\n\nDr. [Wilfried Hamilton](https://www.linkedin.com/in/dr-wilfried-yves-hamilton-adoni-ph-d-7907b286/) : Swarm intelligence\n\n[Junaidh Shaik Fareedh](https://www.linkedin.com/in/junaidh-shaik-fareedh-b795b11b7/) : Drone building\n\n[Aastha Singh](https://www.linkedin.com/in/aastha-singh-043bba12a/) : Swarm networking\n\n[Yuleika Madriz Diaz](https://www.linkedin.com/in/yuleika-madriz-diaz-934aaa119/) : Logistic support and regulation\n\nFull details of the study can be accessed via the journal portal [https://www.mdpi.com/2504-446X/8/10/575](https://www.mdpi.com/2504-446X/8/10/575)",
@@ -519,7 +553,7 @@
     {
       "slug": "2024-02-01-battery-components",
       "kind": "post",
-      "title": "2024-02-01-battery-components",
+      "title": "Spectral Characterization of Battery Components from Li-Ion Battery Recycling Processes",
       "date": "2024-02-01",
       "excerpt": "Optical sensors for non-contact detection of Li-ion battery components in recycling streams.",
       "tags": [
@@ -527,18 +561,36 @@
         "recycling",
         "spectral-library"
       ],
-      "authors": [],
+      "authors": [
+        "Julia Richter",
+        "Sandra Lorenz",
+        "Alexandra Kaas",
+        "Margret Fuchs",
+        "Christian Röder",
+        "Urs A. Peuker",
+        "Johannes Heitmann",
+        "Richard Gloaguen"
+      ],
       "doi": "10.3390/met14020147",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "Spectral Characterization of Battery Components from Li-Ion Battery Recycling Processes",
+        "authors": [
+          "Julia Richter",
+          "Sandra Lorenz",
+          "Alexandra Kaas",
+          "Margret Fuchs",
+          "Christian Röder",
+          "Urs A. Peuker",
+          "Johannes Heitmann",
+          "Richard Gloaguen"
+        ],
+        "journal": "Metals",
+        "year": 2024,
         "date": "2024-02-01",
         "doi": "10.3390/met14020147",
         "url": "https://doi.org/10.3390/met14020147",
-        "type": "",
-        "source": ""
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": true,
       "body": "Excited to share a new paper on „Spectral Characterization of Battery Components from Li-Ion Battery Recycling Processes“ led by [Julia Richter](https://www.linkedin.com/in/julia-richter-22585b203/)! The work was done in close collaboration between [TU Bergakademie Freiberg](https://www.linkedin.com/school/tu-freiberg.de/) and [Helmholtz Institute Freiberg](https://www.linkedin.com/showcase/helmholtz-institute-for-resource-technology-hif-/) within the BMBF funded project [DIGISORT](https://www.greenbatt-cluster.de/de/projekte/digisort/). Addressing the critical need for efficient and cost-effective recycling strategies amidst the rising demand for Li-ion batteries, our study focuses on employing optical sensors for non-contact, real-time monitoring of battery component detection. Investigating mm-scale particles from end-of-life Li-ion batteries using five reflectance sensors, we identified the visible to near-infrared range (400–1000 nm) as optimal for discriminating between Aluminum (Al), Copper (Cu), and other vital battery components in the recycling material stream and provide practical recommendations for industry application.\n\nFind more about it in the full article: [https://www.mdpi.com/2075-4701/14/2/147](https://www.mdpi.com/2075-4701/14/2/147)\n\nFigure: Representative reflectance spectra of various particles from processed End-of-Life Li-ion batteries, comparing the performance of different reflectance sensors.",
@@ -589,7 +641,7 @@
     {
       "slug": "2024-01-23-underground-li",
       "kind": "post",
-      "title": "2024-01-23-underground-li",
+      "title": "Underground hyperspectral outcrop scanning for automated mine‐face mapping: The lithium deposit of Zinnwald/Cínovec",
       "date": "2024-01-23",
       "excerpt": "A workflow for hyperspectral geological mapping in an underground mine, validated with LIBS.",
       "tags": [
@@ -597,18 +649,42 @@
         "fieldtrip",
         "outcrop"
       ],
-      "authors": [],
+      "authors": [
+        "Moritz Kirsch",
+        "Maria Mavroudi",
+        "Sam Thiele",
+        "Sandra Lorenz",
+        "Laura Tusa",
+        "René Booysen",
+        "Erik Herrmann",
+        "Ayoub Fatihi",
+        "Robert Möckel",
+        "Thomas Dittrich",
+        "Richard Gloaguen"
+      ],
       "doi": "10.1111/phor.12457",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "Underground hyperspectral outcrop scanning for automated mine‐face mapping: The lithium deposit of Zinnwald/Cínovec",
+        "authors": [
+          "Moritz Kirsch",
+          "Maria Mavroudi",
+          "Sam Thiele",
+          "Sandra Lorenz",
+          "Laura Tusa",
+          "René Booysen",
+          "Erik Herrmann",
+          "Ayoub Fatihi",
+          "Robert Möckel",
+          "Thomas Dittrich",
+          "Richard Gloaguen"
+        ],
+        "journal": "The Photogrammetric Record",
+        "year": 2023,
         "date": "2024-01-23",
         "doi": "10.1111/phor.12457",
         "url": "https://doi.org/10.1111/phor.12457",
-        "type": "",
-        "source": ""
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": false,
       "body": "In this study we propose a workflow for using hyperspectral imaging for geological mapping in underground mining. We evaluated sensors and lighting set-ups in a lab and acquired data in a German underground mine. The corrected data were used to map mineral abundance and estimate Li content, validated with laser-induced breakdown spectroscopy. Despite challenges, this study aims to establish hyperspectral sensors in the extractive industry to increase raw material supply, advance digitalisation, and reduce environmental impact and mining risks.\n\nTake a look at the paper here: [https://onlinelibrary.wiley.com/doi/10.1111/phor.12457](https://onlinelibrary.wiley.com/doi/10.1111/phor.12457)\n\nFigure: Photo showing the underground hyperspectral imaging set-up with results created from the hyperspectral data.",
@@ -630,18 +706,38 @@
         "3d-modelling",
         "machine-learning-ai"
       ],
-      "authors": [],
+      "authors": [
+        "Ahmed J. Afifi",
+        "Samuel T. Thiele",
+        "Aldino Rizaldy",
+        "Sandra Lorenz",
+        "Pedram Ghamisi",
+        "Raimon Tolosana-Delgado",
+        "Moritz Kirsch",
+        "Richard Gloaguen",
+        "Michael Heizmann"
+      ],
       "doi": "10.1109/TGRS.2023.3340293",
       "paper": {
         "title": "New paper on a multi-sensor benchmark dataset",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "authors": [
+          "Ahmed J. Afifi",
+          "Samuel T. Thiele",
+          "Aldino Rizaldy",
+          "Sandra Lorenz",
+          "Pedram Ghamisi",
+          "Raimon Tolosana-Delgado",
+          "Moritz Kirsch",
+          "Richard Gloaguen",
+          "Michael Heizmann"
+        ],
+        "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+        "year": 2024,
         "date": "2023-12-19",
         "doi": "10.1109/TGRS.2023.3340293",
-        "url": "https://doi.org/10.1109/TGRS.2023.3340293",
-        "type": "",
-        "source": ""
+        "url": "https://doi.org/10.1109/tgrs.2023.3340293",
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": false,
       "body": "Excellent new contribution led by [Ahmed J. Afifi](https://www.linkedin.com/in/ACoAAA5b3f0BOjs2DMvmIi5hImLngz62EUtq6Uo) in a collaboration with [Karlsruhe Institute of Technology (KIT)](https://www.linkedin.com/company/kit/) IIIT.\n\nWe want to boost 3D EOand Image processing. The Earth is not flat... So let's deal with real data.\n\nIt's time to move one from 2D to 3D datasets.\n\nHere we provide a new hyperspectral benchmark dataset with VNIR, SWIR and LWIR attributes of very unstructured surfaces. Who wants to beat current point nets? Open access paper, open source codes and open source dataset.\n\nPaper here: [https://lnkd.in/eUxDNFav](https://lnkd.in/eUxDNFav)\n\nDataset here: [https://lnkd.in/e2_BZCU5](https://lnkd.in/e2_BZCU5)",
@@ -814,7 +910,7 @@
     {
       "slug": "2023-08-23-multisensor-fusion",
       "kind": "post",
-      "title": "2023-08-23-multisensor-fusion",
+      "title": "Multi-sensor data fusion using deep learning for bulky waste image classification",
       "date": "2023-08-23",
       "excerpt": "Early, intermediate and late fusion of RGB, NIR HSI, thermography and terahertz for bulky waste.",
       "tags": [
@@ -822,18 +918,40 @@
         "machine-learning-ai",
         "conference"
       ],
-      "authors": [],
+      "authors": [
+        "Manuel Bihler",
+        "Lukas Roming",
+        "Yifan Jiang",
+        "Ahmed J. Afifi",
+        "Jochen Aderhold",
+        "Dovile Cibiraite-Lukenskiene",
+        "Sandra Lorenz",
+        "Richard Gloaguen",
+        "Robin Gruna",
+        "Michael Heizmann"
+      ],
       "doi": "10.1117/12.2673838",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "Multi-sensor data fusion using deep learning for bulky waste image classification",
+        "authors": [
+          "Manuel Bihler",
+          "Lukas Roming",
+          "Yifan Jiang",
+          "Ahmed J. Afifi",
+          "Jochen Aderhold",
+          "Dovile Cibiraite-Lukenskiene",
+          "Sandra Lorenz",
+          "Richard Gloaguen",
+          "Robin Gruna",
+          "Michael Heizmann"
+        ],
+        "journal": "Automated Visual Inspection and Machine Vision V",
+        "year": 2023,
         "date": "2023-08-23",
         "doi": "10.1117/12.2673838",
         "url": "https://doi.org/10.1117/12.2673838",
-        "type": "",
-        "source": ""
+        "type": "proceedings-article",
+        "source": "crossref"
       },
       "selected": false,
       "body": "Multi-sensor data fusion using deep learning for bulky waste image classification\n\nBy Ahmed J. Afifi\n\nImages from all sensors of wood partly covered with metal. From left to right: RGB, hyperspectral NIR, thermography, and terahertz image. To visualize the data, 3 out of 224 NIR channels are shown, whereas for the terahertz data cube, a maximum aggregation over the depth channel is given for visualization (from the paper).\n\nIn the realm of computer vision, deep learning techniques have become a go-to solution for tackling a wide array of challenges, such as object recognition, classification, and segmentation based on RGB images. As technology has advanced, we now have access to an array of sensors designed for specific industries. These sensors collect specialized datasets that often feature various modalities. These modalities manifest as differences in channel numbers and pixel values within the images, each requiring unique interpretation.\n\nLeveraging deep learning to achieve optimal results with such multimodal data is no small feat. To boost the performance of classification tasks in this complex environment, one promising approach involves the use of data fusion techniques. Data fusion is a strategy aimed at harnessing all available information from these diverse sensors and melding them together to yield the best possible results.\n\nIn this article, we delve into the exploration of early fusion, intermediate fusion, and late fusion using deep learning models, with a specific focus on classifying bulky waste images. Our study employs a multimodal dataset encompassing RGB, hyperspectral near-infrared (NIR), Thermography, and Terahertz images of bulky waste. The findings from our research underscore the significant advantages of multimodal sensor fusion, showcasing its ability to improve classification accuracy when compared to a single-sensor approach, specifically for the dataset we utilized. Among the fusion strategies, late fusion emerged as the top performer, boasting an impressive accuracy rate of 0.921 on our test data, surpassing both intermediate and early fusion techniques.\n\nEnjoy reading the publication here:\nManuel Bihler, Lukas Roming, Yifan Jiang, Ahmed J. Afifi, Jochen Aderhold, Dovilė Čibiraitė-Lukenskienė, Sandra Lorenz, Richard Gloaguen, Robin Gruna, and Michael Heizmann \"Multi-sensor data fusion using deep learning for bulky waste image classification\", Proc. SPIE 12623, Automated Visual Inspection and Machine Vision V, 126230B (11 August 2023); [https://doi.org/10.1117/12.2673838](https://doi.org/10.1117/12.2673838)",
@@ -1034,7 +1152,7 @@
     {
       "slug": "2023-05-02-classification-of-uavs",
       "kind": "post",
-      "title": "2023-05-02-classification-of-uavs",
+      "title": "Investigation of Autonomous Multi-UAV Systems for Target Detection in Distributed Environment: Current Developments and Open Challenges",
       "date": "2023-05-02",
       "excerpt": "A review of autonomous multi-UAV systems for target detection in distributed environments.",
       "tags": [
@@ -1042,18 +1160,30 @@
         "uav",
         "machine-learning-ai"
       ],
-      "authors": [],
+      "authors": [
+        "Wilfried Adoni",
+        "Sandra Lorenz",
+        "Junaidh Fareedh",
+        "Richard Gloaguen",
+        "Michael Bussmann"
+      ],
       "doi": "10.3390/drones7040263",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "Investigation of Autonomous Multi-UAV Systems for Target Detection in Distributed Environment: Current Developments and Open Challenges",
+        "authors": [
+          "Wilfried Adoni",
+          "Sandra Lorenz",
+          "Junaidh Fareedh",
+          "Richard Gloaguen",
+          "Michael Bussmann"
+        ],
+        "journal": "Drones",
+        "year": 2023,
         "date": "2023-05-02",
         "doi": "10.3390/drones7040263",
         "url": "https://doi.org/10.3390/drones7040263",
-        "type": "",
-        "source": ""
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": true,
       "body": "Take a look at the summary of Wilfried Hamilton and Co's new paper.\n\nUncrewed aerial vehicles (UAVs), also known as drones, are ubiquitous and their use cases extend today from governmental applications to civil applications such as the agricultural, medical, and transport sectors, etc. In accordance with the requirements in terms of demand, it is possible to carry out various missions involving several types of UAVs as well as various onboard sensors.\n\nRead the full article here: [https://www.mdpi.com/2504-446X/7/4/263](https://www.mdpi.com/2504-446X/7/4/263)",
@@ -1341,7 +1471,7 @@
     {
       "slug": "2022-de-la-rosa-logging",
       "kind": "post",
-      "title": "2022-de-la-rosa-logging",
+      "title": "Automated Multi-Scale and Multivariate Geological Logging from Drill-Core Hyperspectral Data",
       "date": "2022-11-02",
       "excerpt": "Automated multi-scale and multivariate geological logging from drill-core hyperspectral data.",
       "tags": [
@@ -1350,18 +1480,28 @@
         "spectral-library",
         "machine-learning-ai"
       ],
-      "authors": [],
+      "authors": [
+        "Roberto De La Rosa",
+        "Raimon Tolosana-Delgado",
+        "Moritz Kirsch",
+        "Richard Gloaguen"
+      ],
       "doi": "10.3390/rs14112676",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "Automated Multi-Scale and Multivariate Geological Logging from Drill-Core Hyperspectral Data",
+        "authors": [
+          "Roberto De La Rosa",
+          "Raimon Tolosana-Delgado",
+          "Moritz Kirsch",
+          "Richard Gloaguen"
+        ],
+        "journal": "Remote Sensing",
+        "year": 2022,
         "date": "2022-11-02",
         "doi": "10.3390/rs14112676",
         "url": "https://doi.org/10.3390/rs14112676",
-        "type": "",
-        "source": ""
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": true,
       "body": "Automated multi-scale and multivariate geological logging from drill-core hyperspectral data, demonstrating how spectral products can support objective, reproducible core logging.",
@@ -1373,7 +1513,7 @@
     {
       "slug": "2022-lorenz-black-angel",
       "kind": "post",
-      "title": "2022-lorenz-black-angel",
+      "title": "Three-Dimensional, Km-Scale Hyperspectral Data of Well-Exposed Zn–Pb Mineralization at Black Angel Mountain, Greenland",
       "date": "2022-11-02",
       "excerpt": "Open km-scale hyperspectral data of Zn–Pb mineralisation at Black Angel Mountain, Greenland.",
       "tags": [
@@ -1384,18 +1524,40 @@
         "point-clouds",
         "machine-learning-ai"
       ],
-      "authors": [],
+      "authors": [
+        "Sandra Lorenz",
+        "Sam T. Thiele",
+        "Moritz Kirsch",
+        "Gabriel Unger",
+        "Robert Zimmermann",
+        "Pierpaolo Guarnieri",
+        "Nigel Baker",
+        "Erik Vest Sørensen",
+        "Diogo Rosa",
+        "Richard Gloaguen"
+      ],
       "doi": "10.3390/data7080104",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "Three-Dimensional, Km-Scale Hyperspectral Data of Well-Exposed Zn–Pb Mineralization at Black Angel Mountain, Greenland",
+        "authors": [
+          "Sandra Lorenz",
+          "Sam T. Thiele",
+          "Moritz Kirsch",
+          "Gabriel Unger",
+          "Robert Zimmermann",
+          "Pierpaolo Guarnieri",
+          "Nigel Baker",
+          "Erik Vest Sørensen",
+          "Diogo Rosa",
+          "Richard Gloaguen"
+        ],
+        "journal": "Data",
+        "year": 2022,
         "date": "2022-11-02",
         "doi": "10.3390/data7080104",
         "url": "https://doi.org/10.3390/data7080104",
-        "type": "",
-        "source": ""
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": true,
       "body": "Hyperspectral imaging is an innovative technology for non-invasive mapping, with increasing applications in many sectors. As with any novel technology, robust processing workflows are required to ensure a wide use. We present an open-source hypercloud dataset capturing the complex but spectacularly well exposed geology from the Black Angel Mountain in Maarmorilik, West Greenland, alongside a detailed and interactive tutorial documenting relevant processing workflows. This contribution relies on very recent progress made on the correction, interpretation and integration of hyperspectral data in earth sciences. The possibility to fuse hyperspectral scans with 3D point cloud representations (hyperclouds) has opened up new possibilities for the mapping of complex natural targets. Spectroscopic and machine learning tools allow or the rapid and accurate characterization of geological structures in a 3D environment. Potential users can use this exemplary dataset and the associated tools to train themselves or test new algorithms. As the data and the tools have a wide range of application, we expect this contribution to benefit the scientific community at large.\n\nFigure 1. ** Example visualizations showing part of the Maarmorilik dataset, including (a) true-color RGB projection of the photogrammetric pointcloud, (b) a false-color composite iron index (red = Fe3+, green = Fe2+, blue = FeOH in e.g., chlorite or biotite), and (c) a minimum wavelength map sensitive to carbonate mineralogy",
@@ -1407,25 +1569,37 @@
     {
       "slug": "2022-shahi-ms2anet",
       "kind": "post",
-      "title": "2022-shahi-ms2anet",
+      "title": "MS$^{2}$A-Net: Multiscale Spectral–Spatial Association Network for Hyperspectral Image Clustering",
       "date": "2022-11-02",
       "excerpt": "A multiscale spectral–spatial association network for hyperspectral image clustering.",
       "tags": [
         "paper",
         "machine-learning-ai"
       ],
-      "authors": [],
+      "authors": [
+        "Kasra Rafiezadeh Shahi",
+        "Pedram Ghamisi",
+        "Behnood Rasti",
+        "Richard Gloaguen",
+        "Paul Scheunders"
+      ],
       "doi": "10.1109/JSTARS.2022.3198137",
       "paper": {
-        "title": "",
-        "authors": [],
-        "journal": "",
-        "year": null,
+        "title": "MS$^{2}$A-Net: Multiscale Spectral–Spatial Association Network for Hyperspectral Image Clustering",
+        "authors": [
+          "Kasra Rafiezadeh Shahi",
+          "Pedram Ghamisi",
+          "Behnood Rasti",
+          "Richard Gloaguen",
+          "Paul Scheunders"
+        ],
+        "journal": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+        "year": 2022,
         "date": "2022-11-02",
         "doi": "10.1109/JSTARS.2022.3198137",
-        "url": "https://doi.org/10.1109/JSTARS.2022.3198137",
-        "type": "",
-        "source": ""
+        "url": "https://doi.org/10.1109/jstars.2022.3198137",
+        "type": "journal-article",
+        "source": "crossref"
       },
       "selected": true,
       "body": "MS²A-Net is a multiscale spectral–spatial association network for unsupervised clustering of hyperspectral images, with applications to geological, rural and urban mapping.",
