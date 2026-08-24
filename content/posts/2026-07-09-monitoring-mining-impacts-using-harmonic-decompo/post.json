@@ -1,0 +1,22 @@
+{
+  "title": "Monitoring mining impacts using harmonic decomposition of time series vegetation indices",
+  "date": "2026-07-09",
+  "tags": [
+    "paper",
+    "satellite",
+    "machine-learning-ai"
+  ],
+  "excerpt": "We developed a new method, Seasonal Harmonic Anomaly Break Analysis (SHABA), to monitor and quantify vegetation changes caused by mining operations using time series vegetation indices",
+  "doi": "10.1016/j.isprsjprs.2026.07.001",
+  "authors": [
+    "Vincent E. Nwazelibe",
+    "Moritz Kirsch",
+    "Samuel T. Thiele",
+    "Farid Djeddaoui",
+    "Weikang Yu",
+    "Richard Gloaguen",
+    "Raimon Tolosana‐Delgado"
+  ],
+  "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+  "year": 2026
+}

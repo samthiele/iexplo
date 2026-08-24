@@ -1,0 +1,22 @@
+{
+  "title": "Tensorweave 1.0: interpolating geophysical tensor fields with spatial neural networks",
+  "date": "2025-10-28",
+  "tags": [
+    "paper",
+    "machine-learning-ai",
+    "3d-modelling"
+  ],
+  "excerpt": "We developed Tensorweave 1.0, a physics-informed spatial neural network designed to accurately interpolate geophysical tensor fields, even from sparse or irregularly sampled data",
+  "doi": "10.5194/gmd-18-7951-2025",
+  "authors": [
+    "Akshay Kamath",
+    "Samuel T. Thiele",
+    "Hernan Ugalde",
+    "Bill Morris",
+    "Raimon Tolosana‐Delgado",
+    "Moritz Kirsch",
+    "Richard Gloaguen"
+  ],
+  "journal": "Geoscientific model development",
+  "year": 2025
+}

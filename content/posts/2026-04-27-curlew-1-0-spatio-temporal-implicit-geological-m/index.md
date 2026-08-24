@@ -1,0 +1,5 @@
+We developed Curlew, an open-source Python package for structural geological modelling using neural fields. This framework incorporates various local constraints and tailored global loss functions to ensure data-consistent and geologically realistic predictions. Random Fourier Feature (RFF) encodings are used to improve model convergence and facilitate stochastic uncertainty quantification, while also helping to learn naturally periodic features such as folds.
+
+Curlew allows incremental construction of complex geological models through temporally-linked neural fields, each representing a specific deposition, intrusion or faulting event. Significantly, this framework allows semi-supervised learning to integrate diverse unlabelled datasets, reducing interpretation bias and potentially improving model robustness. We demonstrate these capabilities using synthetic examples and real data from a faulted stratigraphic digital outcrop model from Newcastle, Australia.
+
+Full article: [Geoscientific Model Development](https://doi.org/10.5194/gmd-19-3455-2026)

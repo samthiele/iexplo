@@ -1,0 +1,5 @@
+Mapping individual trees for precision forestry, biodiversity, and carbon assessment requires detailed 3D structural and species information, typically derived from laser scanning point clouds. While deep learning offers advanced capabilities for segmenting and classifying trees, it demands extensive, labour-intensive annotated training data. To address this, we explored self-supervised and transfer learning strategies to significantly reduce the need for large datasets.
+
+Our label-efficient approach improved performance across instance segmentation, semantic segmentation, and tree classification tasks. For instance, combining self-supervised learning with domain adaptation enhanced instance segmentation AP50 by 16.98%, and hierarchical transfer learning boosted tree classification mean Jaccard by 6.07%. This unified, open-source framework streamlines the extraction of individual tree information from point clouds, also reducing energy consumption and carbon emissions by 21%.
+
+Full article: [Remote Sensing of Environment](https://doi.org/10.1016/j.rse.2026.115564)

@@ -1,0 +1,21 @@
+{
+  "title": "Label-efficient 3D forest mapping: Self-supervised and transfer learning for instance segmentation, semantic segmentation, and species classification",
+  "date": "2026-07-21",
+  "tags": [
+    "paper",
+    "machine-learning-ai",
+    "point-clouds"
+  ],
+  "excerpt": "We developed a label-efficient deep learning framework for 3D forest mapping, using self-supervised and transfer learning to improve individual tree segmentation and species classification from laser scanning point clouds",
+  "doi": "10.1016/j.rse.2026.115564",
+  "authors": [
+    "Aldino Rizaldy",
+    "Fabian Ewald Fassnacht",
+    "Ahmed J. Afifi",
+    "Hua Jiang",
+    "Richard Gloaguen",
+    "Pedram Ghamisi"
+  ],
+  "journal": "Remote Sensing of Environment",
+  "year": 2026
+}

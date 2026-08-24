@@ -1,0 +1,24 @@
+{
+  "title": "Curlew 1.0: Spatio-temporal implicit geological modelling with neural fields in python",
+  "date": "2026-04-27",
+  "tags": [
+    "paper",
+    "3d-modelling",
+    "software",
+    "machine-learning-ai"
+  ],
+  "excerpt": "We introduce Curlew, an open-source Python package that uses neural fields for spatio-temporal implicit geological modelling",
+  "doi": "10.5194/gmd-19-3455-2026",
+  "authors": [
+    "Akshay Kamath",
+    "Samuel T. Thiele",
+    "Marie Moulard",
+    "Lachlan Grose",
+    "Raimon Tolosana‐Delgado",
+    "M. J. Hillier",
+    "Florian Wellmann",
+    "Richard Gloaguen"
+  ],
+  "journal": "Geoscientific model development",
+  "year": 2026
+}

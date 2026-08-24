@@ -1,0 +1,25 @@
+{
+  "title": "Hyperspectral mapping of density, porosity, stiffness, and strength in hydrothermally altered volcanic rocks",
+  "date": "2025-11-03",
+  "tags": [
+    "paper",
+    "machine-learning-ai",
+    "spectral-library",
+    "outcrop"
+  ],
+  "excerpt": "We developed machine learning models that predict density, porosity, stiffness, and strength of volcanic rocks from their hyperspectral fingerprints, offering an efficient method for characterising large areas",
+  "doi": "10.5194/se-16-1249-2025",
+  "authors": [
+    "Samuel T. Thiele",
+    "Gábor Kereszturi",
+    "Michael J. Heap",
+    "Andréa de Lima Ribeiro",
+    "Akshay Kamath",
+    "Maia Kidd",
+    "Matías Tramontini",
+    "Marina Rosas‐Carbajal",
+    "Richard Gloaguen"
+  ],
+  "journal": "Solid Earth",
+  "year": 2025
+}
