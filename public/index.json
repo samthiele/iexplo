@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:18:42.658Z",
+  "generatedAt": "2026-08-24T09:40:11.724Z",
   "posts": [
     {
       "slug": "2024-10-30-hyperspectral-drillcore",
@@ -1362,6 +1362,18 @@
       "body": "I have a Ph.D. in geology and generally speaking I consider myself a remote sensing geologist. My research interests include the use of multi-scale remote sensing data (including drone-borne data) for mineral exploration. My skills are focused toward geological applications, such as the use of spectroscopy for mineral identification, multi- and hyperspectral image processing as well as geological field work.",
       "images": [
         "photo.jpg"
+      ]
+    },
+    {
+      "slug": "akshay-kamath",
+      "kind": "people",
+      "title": "Akshay Kamath",
+      "role": "Geophysicist",
+      "order": 10,
+      "image": "photo.png",
+      "body": "Akshay Kamath is a Geophysicist contributing to the iExplo / HZDR-HIF team. He specialises in applying advanced geophysical methods for subsurface characterisation, with a particular focus on seismic data processing and inversion. His research aims to enhance our understanding of complex geological structures, supporting innovative solutions for resource exploration and environmental monitoring challenges.",
+      "images": [
+        "photo.png"
       ]
     },
     {
