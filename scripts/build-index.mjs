@@ -237,7 +237,7 @@ async function indexPosts() {
     };
 
     let resolved = null;
-    if (isPaper && localPaper.doi && !paperComplete(localPaper)) {
+    if (isPaper && localPaper.doi && !paperComplete(localPaper) && !process.env.IEXPLO_SKIP_DOI) {
       console.log(`Resolving DOI ${localPaper.doi} (${slug})`);
       resolved = await resolveDoi(localPaper.doi);
     }

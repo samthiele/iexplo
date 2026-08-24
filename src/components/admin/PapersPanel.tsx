@@ -43,7 +43,7 @@ export default function PapersPanel({ token, geminiKey, indexUrl, existingTags }
     setBusy(true);
     try {
       const [indexRes, ignoreRaw] = await Promise.all([
-        fetch(indexUrl),
+        fetch(indexUrl, { cache: 'no-store' }),
         readRepoFile(token, IGNORE_PATH),
       ]);
       const index = indexRes.ok ? await indexRes.json() : {};

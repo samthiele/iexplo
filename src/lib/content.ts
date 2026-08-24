@@ -83,7 +83,9 @@ export function assetUrl(kind: string, slug: string, file: string): string {
   if (!file) return '';
   if (file.startsWith('http')) return file;
   const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
-  return `${base}content/${kind}/${slug}/${file}`;
+  const url = `${base}content/${kind}/${slug}/${file}`;
+  const stamp = loadIndex().generatedAt?.replace(/\D/g, '') || '';
+  return stamp ? `${url}?v=${stamp}` : url;
 }
 
 export function page(slug: string): ContentItem | undefined {
