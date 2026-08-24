@@ -1,6 +1,28 @@
 {
-  "generatedAt": "2026-08-24T10:58:58.209Z",
+  "generatedAt": "2026-08-24T12:59:36.510Z",
   "posts": [
+    {
+      "slug": "2026-08-24-introducing-a-planet-sized-organic-supercomputer",
+      "kind": "post",
+      "title": "Introducing a planet-sized organic supercomputer",
+      "date": "2026-08-24",
+      "excerpt": "We explore how advanced geosensing technologies could help us interpret Earth's complex geological systems as if they were the intricate computations of a planet-sized organic supercomputer.",
+      "tags": [
+        "outcrop",
+        "hyperspectral",
+        "machine-learning",
+        "uav"
+      ],
+      "authors": [
+        "Sam Thiele"
+      ],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "Douglas Adams famously posited Earth as a vast, organic supercomputer, designed to calculate the Ultimate Question of Life, the Universe, and Everything. For us in geoscience, this whimsical notion sparks a serious question: what if Earth's deep-time geological processes – from plate tectonics to mineral formation – *are* its computations, running for billions of years?\n\nDeciphering such a 'planetary algorithm' would require unprecedented data. We envision a future where high-resolution, multi-modal geosensing – from hyperspectral satellite imagery to deep-drilling sensors and seismic tomography – could provide the inputs and outputs of this grand computation. Imagine mapping every mineralogical change, every fluid flow, every stress accumulation, across vast scales and deep into the crust.\n\nThis perspective reframes our quest for resources and understanding natural hazards. By treating Earth as a complex system whose 'code' we must learn to read, we can move beyond mere observation to truly predict and manage its dynamic processes, ultimately understanding how our planet generates the very conditions for life.\n\n[Arthur Dent (Martin Freeman) and the robot Marvin (Warwick Davis) on the planet Magrathea in the 2005 film](https://media.nature.com/lw767/magazine-assets/d41586-019-02969-8/d41586-019-02969-8_17222542.jpg?as=webp)",
+      "images": [],
+      "image": "https://media.nature.com/lw767/magazine-assets/d41586-019-02969-8/d41586-019-02969-8_17222552.jpg?as=webp"
+    },
     {
       "slug": "2026-07-21-label-efficient-3d-forest-mapping-self-supervise",
       "kind": "post",
@@ -2460,6 +2482,31 @@
     }
   ],
   "tags": {
+    "outcrop": [
+      "2026-08-24-introducing-a-planet-sized-organic-supercomputer",
+      "2025-11-03-hyperspectral-mapping-of-density-porosity-stiffn",
+      "2024-01-23-underground-li",
+      "2022-lorenz-black-angel"
+    ],
+    "hyperspectral": [
+      "2026-08-24-introducing-a-planet-sized-organic-supercomputer"
+    ],
+    "machine-learning": [
+      "2026-08-24-introducing-a-planet-sized-organic-supercomputer"
+    ],
+    "uav": [
+      "2026-08-24-introducing-a-planet-sized-organic-supercomputer",
+      "2024-10-28-intelligent-swarm",
+      "2024-10-28-ros-ide",
+      "2024-03-26-autotarget-repo",
+      "2024-03-26-hyperuav-page",
+      "2023-07-20-ros-framework",
+      "2023-06-30-moskito",
+      "2023-06-22-3d-printing-1",
+      "2023-06-22-3d-printing-2",
+      "2023-05-02-classification-of-uavs",
+      "2022-11-02-disko-magnetic"
+    ],
     "paper": [
       "2026-07-21-label-efficient-3d-forest-mapping-self-supervise",
       "2026-07-09-monitoring-mining-impacts-using-harmonic-decompo",
@@ -2541,23 +2588,6 @@
     ],
     "spectral-library": [
       "2025-11-03-hyperspectral-mapping-of-density-porosity-stiffn"
-    ],
-    "outcrop": [
-      "2025-11-03-hyperspectral-mapping-of-density-porosity-stiffn",
-      "2024-01-23-underground-li",
-      "2022-lorenz-black-angel"
-    ],
-    "uav": [
-      "2024-10-28-intelligent-swarm",
-      "2024-10-28-ros-ide",
-      "2024-03-26-autotarget-repo",
-      "2024-03-26-hyperuav-page",
-      "2023-07-20-ros-framework",
-      "2023-06-30-moskito",
-      "2023-06-22-3d-printing-1",
-      "2023-06-22-3d-printing-2",
-      "2023-05-02-classification-of-uavs",
-      "2022-11-02-disko-magnetic"
     ],
     "recycling": [
       "2024-02-01-battery-components"
