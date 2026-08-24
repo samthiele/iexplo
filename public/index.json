@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:06:52.860Z",
+  "generatedAt": "2026-08-24T13:13:22.284Z",
   "posts": [
     {
       "slug": "2026-08-24-introducing-a-planet-sized-organic-supercomputer",
@@ -22,6 +22,27 @@
       "body": "Douglas Adams famously posited Earth as a vast, organic supercomputer, designed to calculate the Ultimate Question of Life, the Universe, and Everything. For us in geoscience, this whimsical notion sparks a serious question: what if Earth's deep-time geological processes – from plate tectonics to mineral formation – *are* its computations, running for billions of years?\n\nDeciphering such a 'planetary algorithm' would require unprecedented data. We envision a future where high-resolution, multi-modal geosensing – from hyperspectral satellite imagery to deep-drilling sensors and seismic tomography – could provide the inputs and outputs of this grand computation. Imagine mapping every mineralogical change, every fluid flow, every stress accumulation, across vast scales and deep into the crust.\n\nThis perspective reframes our quest for resources and understanding natural hazards. By treating Earth as a complex system whose 'code' we must learn to read, we can move beyond mere observation to truly predict and manage its dynamic processes, ultimately understanding how our planet generates the very conditions for life.\n\n[Arthur Dent (Martin Freeman) and the robot Marvin (Warwick Davis) on the planet Magrathea in the 2005 film](https://media.nature.com/lw767/magazine-assets/d41586-019-02969-8/d41586-019-02969-8_17222542.jpg?as=webp)",
       "images": [],
       "image": "https://media.nature.com/lw767/magazine-assets/d41586-019-02969-8/d41586-019-02969-8_17222552.jpg?as=webp"
+    },
+    {
+      "slug": "2026-08-24-neural-diffeomorphisms-for-geology",
+      "kind": "post",
+      "title": "Neural diffeomorphisms for geology",
+      "date": "2026-08-24",
+      "excerpt": "We developed a new method for building 3D structural geological models using neural diffeomorphisms to represent complex geological transformations.",
+      "tags": [
+        "diffeormorphism",
+        "euler-potentials",
+        "geology"
+      ],
+      "authors": [
+        "Akshay Kamath"
+      ],
+      "doi": "",
+      "paper": null,
+      "selected": false,
+      "body": "Building accurate 3D structural geological models is crucial for understanding subsurface processes and resource exploration, but representing complex geological deformations remains a significant challenge. We introduce a new approach that leverages neural diffeomorphisms to model these intricate transformations.\n\nOur method employs diffeomorphic registration, where the underlying smooth, invertible transformation is derived from a learned velocity field. This velocity field is constructed using Euler Potentials, a mathematical framework well-suited for describing geological structures, and parametrised by Random Fourier Feature series to capture intricate details.\n\nThis approach offers a powerful way to represent and model complex geological deformations, potentially leading to more accurate and robust 3D models of the subsurface. By integrating learned transformations, we aim to improve the efficiency and fidelity of structural geological modelling workflows.",
+      "images": [],
+      "image": ""
     },
     {
       "slug": "2026-07-21-label-efficient-3d-forest-mapping-self-supervise",
@@ -2565,6 +2586,15 @@
       "2023-06-22-3d-printing-2",
       "2023-05-02-classification-of-uavs",
       "2022-11-02-disko-magnetic"
+    ],
+    "diffeormorphism": [
+      "2026-08-24-neural-diffeomorphisms-for-geology"
+    ],
+    "euler-potentials": [
+      "2026-08-24-neural-diffeomorphisms-for-geology"
+    ],
+    "geology": [
+      "2026-08-24-neural-diffeomorphisms-for-geology"
     ],
     "paper": [
       "2026-07-21-label-efficient-3d-forest-mapping-self-supervise",
